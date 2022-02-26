@@ -86,7 +86,7 @@ dict基亏 Polyhedron旳中古全拼方案zyenpheng。
     
    reverse_lookup   prefix: "i"
 
-按運查:
+按韻查:
 
 
     AO 麻瓜衺敗夬肴銜刪彎庚觥京榮
