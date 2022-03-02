@@ -68,7 +68,7 @@ speller:
     - derive/(^|')T[SZ]H(?!$)/v/
     - derive/(^|')T[SZ](?!$)/c/
     - derive/(^|')D[SZ](?!$)/z/
-     - derive/(^|')SS(?!$)/s/
+    - derive/(^|')SS(?!$)/s/
     - derive/(^|')(SZ|ZS)(?!$)/x/
     - derive/(^|')NG(?!$)/w/
     - derive/(^|')KH(?!$)/y/
@@ -90,73 +90,30 @@ speller:
     - abbrev/^([a-z])([a-gi-z])+$/$1/
 ##############
     - derive/((^|')([pfbm]))v/$1/
-    - derive/(\w)jao([cgqk])/$1xe$2/
-    - derive/(\w)yao([cgqk])/$1we$2/
+    - derive/(\w)yao([cgqk])/$1wa$2/
     - derive/(\w)jao(([osh])|$)/$1ja$2/
+    - derive/(\w)x[ae](([cgqk]))/$1jao$2/
+    - derive/(\w)w[ae](([cgqk]))/$1yao$2/ #京
     - derive/(\w)jeo/$1i/
     - derive/(\w[rl])eo/$1i/
     - derive/(\w)xeo/$1ri/
     - derive/(\w)xeo/$1li/
     - derive/(\w)yeo/$1vi/
     - derive/(\w)yeo([^cgqk])/$1u$2/
-    - derive/(\w)eo([^cgqk])/$1o$2/ 
-    - derive/(\wv)eo([cgqk])/$1o$2/ #veo
+    - derive/(\w)eo([ljymbfpndzt])/$1o$2/ 
     - derive/(\w)eo([hsuvw]|$)/$1i$2/ #㞢尤
     - derive/(\w)u([uvw])/$1o$2/ #侯
-    - derive/(\w)ji([uvw])/$1reo$2/ #幽
-    - derive/(\w)ji([uvw])/$1ri$2/ #幽
-    - derive/(\w)i([ao])/$1j$2/ 
-    - derive/(\w)u([ao])/$1y$2/
-    - derive/(\w)ou/$1j$/
-    - derive/(\w[jyxw])i/$1/
-    - derive/(\w)[jx]([ie])/$1i$2/
-    - derive/(\w)[yw]([ie])/$1u$2/
+    - derive/(\w)ju([sh]|$)/$1uo$2/ #虞
+    - derive/(\w)[jx]([aeiou])/$1i$2/
+    - derive/(\w)[yw]([aeiou])/$1u$2/
 
 # 韻尾-聲調
-    - derive/(\w)l$/$1i/
+
     - erase/(?<!^)([hs])$/$1/
     - derive/(\w)r$/$1y/
     - derive/(\w)q$/$1x/
     - derive/([aeiou])$/$1$1/
-    # - derive/([aeiou]){2}$/$1/
-###############
-    # - derive/^[A-Z]+[vrljyxwiu]?ao([a-z])$/AO/ # 麻瓜衺敗夬肴銜刪彎庚觥京榮
-    # - derive/^[A-Z]+[iuxw]a([a-z])$/IA/ # 乂皆嚴言咸昜
-    # - derive/^[A-Z]+[uw]a([a-z])$/UA/ #  廢乖凡元方
-    # - derive/^[A-Z]+[rl]e([a-z])$/AE/ #  佳媧皆乖咸山鰥耕宏
-    # - derive/^[A-Z]+([jyxw]e([a-z])$|ao[cgqk]$)/EA/ #  支垂奇規祭銳例衞幖宵鹽淹仙宣乾權淸瓊京榮
-    # - derive/^[A-Z]+([vrljyxwiu]?eo|u[uvw])([a-z])$/EO/ # 㞢魚依微咍灰侯覃痕魂登弘
-    # - derive/^[A-Z]+([vrljyxwiu]?eo[ljyuvwmbfp]|ro[cgqk]|[ix]o)$/OA/ #[魚咍灰豪覃江]
-    # - derive/^[A-Z]+(ro[cgqk]|[ix]o|ra[uvw])$/OE/ #[魚肴江] 
-    # - derive/^[A-Z]+[ix]o([a-z])$/IO/ # [魚鍾]
-    # - derive/^[A-Z]+[uw]o([a-z])$/UO/ # [虞]
-    # - derive/^[A-Z]+[jx]i[uvw]([a-z])$/IU/ # [幽]
-    # - derive/^[A-Z]+[rljyxw]eo([a-z])$/IE/ # [㞢依尤欣蒸]
-    # - derive/^[A-Z]+[yw]AO([a-z])$/UE/ # [微文職]
-    # - derive/^[A-Z]+([v]?a([a-z])|[ia]a)$/A/ # [歌戈迦瘸泰外豪談寒桓唐荒]
-    # - derive/^[A-Z]+[v]?(o([a-z])|vEO[ljyndzt])$/O/ # [模灰魂冬鍾]
-    # - derive/^[A-Z]+[v]?e([a-z])$/E/ #齊圭簫添先涓靑冋
-    # - derive/^[A-Z]+[jx]?u([a-z])$/U/ #[侯東中]
-    # - derive/^[A-Z]+[ljyxw]?i([a-z])$/I/ #[脂錐龜肌幽侵愔眞純鄰輪]
-
-    # - derive/^[A-Z]+[vrljyxwiu]?ao/AO/ # 麻瓜衺敗夬肴銜刪彎庚觥京榮
-    # - derive/^[A-Z]+[iuxw]a/IA/ # 乂皆嚴言咸昜
-    # - derive/^[A-Z]+[uw]a/UA/ #  廢乖凡元方
-    # - derive/^[A-Z]+[rl]e/AE/ #  佳媧皆乖咸山鰥耕宏
-    # - derive/^[A-Z]+([jyxw]e|ao(?=[cgqk]))/EA/ #  支垂奇規祭銳例衞幖宵鹽淹仙宣乾權淸瓊京榮
-    # - derive/^[A-Z]+([vrljyxwiu]?eo|u(?=[uvw]))/EO/ # 㞢魚依微咍灰侯覃痕魂登弘
-    # - derive/^[A-Z]+([vrljyxwiu]?eo(?=[ljyuvwmbfp])|ro(?=[cgqk])|[ix]o)/OA/ #[魚咍灰豪覃江]
-    # - derive/^[A-Z]+(ro(?=[cgqk])|[ix]o|ra(?=[uvw]))/OE/ #[魚肴江] 
-    # - derive/^[A-Z]+[ix]o/IO/ # [魚鍾]
-    # - derive/^[A-Z]+[uw]o/UO/ # [虞]
-    # - derive/^[A-Z]+[jx]i(?=[uvw])/IU/ # [幽]
-    # - derive/^[A-Z]+[rljyxw]eo/IE/ # [㞢依尤欣蒸]
-    # - derive/^[A-Z]+[yw]AO/UE/ # [微文職]
-    # - derive/^[A-Z]+([v]?a|[ia]a)/A/ # [歌戈迦瘸泰外豪談寒桓唐荒]
-    # - derive/^[A-Z]+[v]?(o|vEO(?=[ljyndzt]))/O/ # [模灰魂冬鍾]
-    # - derive/^[A-Z]+[v]?e/E/ #齊圭簫添先涓靑冋
-    # - derive/^[A-Z]+[jx]?u/U/ #[侯東中]
-    # - derive/^[A-Z]+[ljyxw]?i/I/ #[脂錐龜肌幽侵愔眞純鄰輪]
+    - derive/([aeiou])\1$/$1/
 
 translator:
   dictionary: phuagthucdsis
