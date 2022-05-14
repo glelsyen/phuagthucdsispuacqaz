@@ -57,18 +57,20 @@ speller:
   alphabet: zyxwvutsrqponmlkjihgfedcbaABCDEFGHIJKLMNOPQRSTUVWXYZ
   delimiter: "'"
   algebra:
-    - derive/((^|')([PBTDKGNLMXJS])(?!$))/\L$1\L/
+    - derive/((^|')([PBMTDNLKGSJ])(?!$))/\L$1\L/
     - derive/((^|')(([PTK]|TS|RT)H)(?!$))/\L$1\L/
     - derive/(^|')T[SZ](?!$)/ts/
     - derive/(^|')D[SZ](?!$)/dz/
     - derive/((^|')([SZ][SC]))(?!$)/\L$1\L/
-    - derive/(^|')HQ(?!$)/h/
+    - derive/(^|')NG(?!$)/ng/
+    - derive/(^|')HQ(?!$)/q/
     - derive/(^|')HZ(?!$)/g/
-    - derive/(^|')HS(?!$)/x/
+    - derive/(^|')HS(?!$)/h/
     - derive/(^|')T[SZ]H(?!$)/v/
+    - derive/(^|')T[SZ](?!$)/c/
+    - derive/(^|')D[SZ](?!$)/z/
     - derive/(^|')SS(?!$)/s/
-    - derive/(^|')XZ/z/
-    - derive/(^|')(SZ|ZS)(?!$)/z/
+    - derive/(^|')(SZ|ZS|XZ)(?!$)/x/
     - derive/(^|')NG(?!$)/w/
     - derive/(^|')KH(?!$)/y/
     - derive/(^|')PH(?!$)/f/
@@ -76,13 +78,8 @@ speller:
     - derive/(^|')T[RC](?!$)/t/
     - derive/(^|')D[RC](?!$)/d/
     - derive/(^|')N[RC](?!$)/n/
-    - erase/(^|')[hg][jy]/
-    - derive/(^|')HSj/$1hx/
-    - derive/(^|')HZj/$1gx/
-    - derive/(^|')HSy/$1hw/
-    - derive/(^|')HZy/$1gw/
-    - derive/(^|')SC([jy])(?!$)/$1h$2/
-    - derive/(^|')ZC([jy])(?!$)/$1g$2/
+    - abbrev/(^|')SC(\w)(?!$)/$1h$2/
+    - abbrev/(^|')ZC(\w)(?!$)/$1g$2/
 
     - derive/^T[ZC]H(?!$)/RTH/
     - derive/^D[ZC](?!$)/RT/
@@ -93,47 +90,45 @@ speller:
     - abbrev/^([a-z])([a-gi-z])+$/$1/
 ##############
     - derive/ə/eo/ #EOə
-    - derive/(\w)əə/$1eeo/ 
+    - derive/(\w)veo/$1oe$2/ #ə
     - derive/([jxaeiouə])\1(\w)/$1$2/ 
 
     - derive/((^|')([pfbm]))v/$1/ 
-    - derive/((^|')([pfbm]))v/$1/ 
-    - derive/(\w)[jx]/$1i/
-    - derive/(\w)[yw]/$1u/
-    - derive/(\w)yao([cgqk])/$1wa$2/
-    - derive/(\w)jao(([osh])|$)/$1ja$2/
-    - derive/(\w)x[ae](([cgqk]))/$1jao$2/
-    - derive/(\w)w[ae](([cgqk]))/$1yao$2/ #京
+    - derive/u(a[pfbm])/i$1/ #凡
+    - abbrev/(\w)ji(\w)/$1i$2/ #臨
+    - derive/(\w)u([aeiouə])/$1y$2/ #u y
     - derive/(\w)ra/$1ao/ #二等
     - derive/(\w)la/$1vao/ #二等
     - derive/(\w)re/$1ae/ #二等
     - derive/(\w)le/$1vae/ #二等
-    - derive/(\w)ru/$1oa/ #二等
-    - derive/(\w)[jxi]e/$1ea/ #三等
-    - derive/(\w)[ywu]e/$1vea/ #三等
-    - derive/(\w[rl])eo/$1i/ #əEO
-    - derive/(\w)eo([xhs])/$1i$2/
+    - derive/(\w)ru/$1au/ #二等
+    - derive/(\w)[jx](\w)/$1i$2/ #三等
+    - derive/(\w)[yw](\w)/$1u$2/
     - derive/(\w)xeo/$1ri/
-    - derive/(\w)xeo/$1li/
-    - derive/(\w)[ij]eo/$1i/
-    - derive/(\w)ieo/$1vi/
+    - derive/(\w)weo/$1li/
+    - derive/(\w)[ijx]eo/$1i/
+    - derive/(\w[iu])eo/$1/
+    - derive/(\w)ueo/$1vi/
     - derive/(\w)ueo/$1u/
     - derive/(\w)veo([jyrndzt])/$1o$2/ 
     - derive/(\w)eeo([vwlmbfp])/$1o$2/ #
-    - derive/(\w)veo/$1oe$2/ #
-    - abbrev/(\w)eo([a-z])/$1$2/ 
-    - derive/(\w)eo([xhs])/$1i$2/ #㞢尤
+    - abbrev/(\w)eo([zyxwvtsrqpnmlkjhgfdcb])/$1$2/ 
     - derive/(\w)əux/$1ov/ #侯
     - derive/(\w)əuh/$1ow/ #侯
     - derive/(\w)əus/$1ol/ #侯
     - derive/(\w)[jxi]u([vwl])/$1i$2/ #尤
-    - derive/(\w)ou/$1u/ #東
+    - derive/(\w)eu/$1u/ #東
+    - derive/(\w)ou([cgqk])/$1o$2/ #冬
     - derive/(\w)ei/$1i/ #幽
+    - derive/(\w)əu/$1u/ #侯三
 
 
 # 韻尾-聲調
-    - erase/(?<!^)([hs])$/$1/
     - derive/(\w)x$/$1/
+    - derive/(\wr)[jptk]$/$1/
+    - derive/(\w)jh$/$1l/
+    - derive/(\w)vs$/$1y/
+    - abbrev/(\w)j$/$1/
 ###############
 
 
