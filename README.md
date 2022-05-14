@@ -1,6 +1,5 @@
 # PhuagThucDsisPuacQaz
 基亏廣韻旳 rime 拼音方案。
-dict基亏 Polyhedron旳中古全拼方案zyenpheng。
 拼音説明 https://zhuanlan.zhihu.com/p/388867479
 輸入法說明：
   聲母:
@@ -21,9 +20,10 @@ dict基亏 Polyhedron旳中古全拼方案zyenpheng。
   韻母：
 
     [麻敗肴銜刪庚],'ra','ao'
+    麻,'raj'
     [瓜夬彎觥],'la','vao'
-    [衺京],'jAO','xAO','iAO'
-    [榮],'yAO'
+    [衺京],'ja','xa','ia'
+    [榮],'ya'
     [乂皆嚴言昜],'ia','xa'
     [廢乖凡元方],'ua','wa'
     [歌泰豪談寒唐],'a'
@@ -31,7 +31,7 @@ dict基亏 Polyhedron旳中古全拼方案zyenpheng。
     [迦],'ia'
     [瘸],'ua'
 
-    [佳皆咸山耕],'re','ea'
+    [佳皆咸山耕],'re','ae'
     [媧乖鰥宏],'le','vea'
     [支祭幖鹽仙嬰],'je'
     [垂銳宣瓊],'ye'
@@ -39,17 +39,20 @@ dict基亏 Polyhedron旳中古全拼方案zyenpheng。
     [規衞權],'we'
     [齊簫添先靑],'e'
     [圭添涓冋],'ve'
+    齊,'e-j'
 
-    [冬],'o'
+
+    [冬],'ou','o'
     [鍾],'jo','xo','io'
     [魚],'jo','xo','io'
-    [虞],'yo','wo','uo'
+    [虞1],'yo','wo','uo'
+    [虞2],'ju','xu','iu'
     [模],'o','vo'
 
 
-    [尤1],'ju-v','xu-v','iu-v' (流)
-    [尤2],'jə-v','xə-v','iə-v' (丩)
-    [幽],'ji','xi','ii'
+    [尤1],'ju-v','iu-v' (流)
+    [尤2],'viə'
+    [幽],'xə-v','iə-v' 
     [㞢],'rə','ri','jə','i'
     [灰痕登],'ə', 'eo'
     [覃],'ə' 'o'
@@ -58,9 +61,9 @@ dict基亏 Polyhedron旳中古全拼方案zyenpheng。
     [依欣蒸],'iə','i','rə','ri'
     [微文職],'uə','u'
 
-    [東],'ou'
+    [東],'eu','u'
     [中],'ju','xu','iu'
-    [江],'ru','oa'
+    [江],'ru','au'
     [侯],'əu'
     [豪2],'ou-v' (皐)
 
@@ -79,8 +82,8 @@ ei爲/i/，可簡爲 i
 韻尾聲調(：
 
     无韻尾平丄去 -x, -h, -s
-    -u韻尾平丄去 -v, -w, -l
-    -i韻尾平丄去 -j, -y, -r
+    -u韻尾平丄去 -v, -w, -y
+    -i韻尾平丄去 -j, -l, -r
     次入韻-r(-p -t -k)
     m 韻尾平丄去入-m, -b,-f, -p
     n 韻尾平丄去入-n, -d, -z, -t
