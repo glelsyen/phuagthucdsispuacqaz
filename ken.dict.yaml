@@ -1,0 +1,219 @@
+
+---
+name: kez
+version: "2022.1.15"
+sort: by_weight
+use_preset_vocabulary: true
+import_tables:
+...
+p	P
+b	PZ
+b	B
+t	T
+d	TZ
+d	D
+ʈ	TR
+ɖ	DR
+c	C
+ɟ	CZ
+k	K
+ɡ	KZ
+ɡ	G
+q	Q
+ɢ	QZ
+ʔ	HQ
+ʔ	AF
+ʔ	A
+ɹ	JT
+ɻ	JR
+ʦ	TS
+ʣ	DS
+ʧ	TZ
+ʤ	DZ
+ʨ	TC
+ʥ	DC
+t͡s	TS
+d͡z	DS
+t͡ʃ	TZ
+d͡ʒ	DZ
+t͡ɕ	TC
+d͡ʑ	DC
+t͡ʂ	RT
+d͡ʐ	RD
+t͡	T
+d͡	D
+ɸ	FP
+β	FB
+f	F
+v	FZ
+s	SF
+z	ZF
+ʃ	SS
+ʒ	SZ
+ʂ	RS
+ʐ	RZ
+ɕ	SZ
+ʑ	ZC
+ħ	OS
+x	XS
+ɣ	XZ
+# ɣ	X
+χ	XSQ
+ʁ	XQ
+ʕ	OF
+ʕ	O
+h	H
+h	HF
+ɦ	HZ
+m	M
+ɱ	MF
+n	N
+ŋ	NG
+ɳ	NR
+ȵ	NC
+ɴ	NQ
+ɰ	W
+y	Y
+ɥ	Y
+w	V
+r	R
+ɑ	A
+e	E
+ᴇ	E
+ɤ	E
+ə	EO
+Ə	EO
+ʌ	O
+ɪ	EI
+ʏ	OI
+ω	EU
+ʊ	OU
+ɨ	I
+ʉ	U
+i	I
+ɯ	U
+ɨɐ	IA
+ʉɐ	UA
+ɨɛ	IE
+ʉɛ	UE
+æ	AE
+ɔ	AU
+a	AO
+ʰ	H
+ʷ	V
+ʲ	J
+ˠ	X
+̚	A
+ˤ	O
+ˡ	L
+ⁿ	N
+̥	S
+̬	Z
+˞	R
+̩	I
+̯	J
+̈	EO
+ː	AA
+˥	Deew
+˦	Deew
+˧	Deew
+˨	Deew
+˩	Deew
+|	Deew
+‖	Deew
+↗	Deew
+↘	Deew
+ꜛ	Deew
+ꜜ	Deew
+ː	SCjec
+ˑ	SCjec
+̆	SCjec
+ˈ	SCjec
+ˌ	SCjec
+.	SCjec
+‿	SCjec
+ℵ	aleph
+ℶ	beth
+ℷ	gimel
+ℸ	dalet
+α	alpha
+β	beta
+γ	gamma
+δ	delta
+ε	epsilon
+ζ	zeta
+η	eta
+ϝ	digamma
+θ	theta
+ι	iota
+κ	kappa
+λ	lamda
+μ	mu
+ν	nu
+ξ	xi
+ο	omicro
+π	pi
+ϙ	koppa
+ρ	rho
+σ	sigma
+τ	tau
+υ	upsilon
+φ	phi
+χ	chi
+ψ	psi
+ω	omega
+Α	alpha
+Β	beta
+Δ	delta
+Γ	gamma
+Ε	epsilon
+Ϝ	digamma
+Ζ	zeta
+Η	eta
+Θ	theta
+Ι	iota
+Κ	kappa
+Λ	lamda
+Μ	mu
+Ν	nu
+Ξ	xi
+Ο	omicro
+Π	pi
+Ϙ	koppa
+Ρ	rho
+Σ	sigma
+Τ	tau
+Υ	upsilon
+Φ	phi
+Χ	chi
+Ψ	psi
+Ω	omega
+⿰	IDS
+⿱	IDS
+⿲	IDS
+⿳	IDS
+⿴	IDS
+⿵	IDS
+⿶	IDS
+⿷	IDS
+⿸	IDS
+⿹	IDS
+⿺	IDS
+⿻	IDS
+
+↑	DCjag	80%
+↓	HZrah	80%
+←	TSaah	80%
+→	XZiəl	80%
+∩	Krev	80%
+∪	Pjeq	80%
+∈	DCjuk	80%
+∈	TCjuk	80%
+⊆	HZəəm	80%
+∀	DSyen	80%
+∃	XZiəw	80%
+∄	Muox	80%
+∅	KHeuc	80%
+∫	TSjek	80%
+✓	Kəux	80%
+乄	20036	#0x4e44
