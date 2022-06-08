@@ -7,7 +7,7 @@ version: "2022.2.7"
 sort: by_weight
 use_preset_vocabulary: true
 import_tables:
-  - kez
+  - kiz
 ...
 些	Sas
 大	Das	#ts
