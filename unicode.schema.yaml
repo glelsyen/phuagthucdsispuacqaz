@@ -1,0 +1,111 @@
+# Rime schema
+# encoding: utf-8
+
+schema:
+  schema_id: unicode
+  name: unicode
+  version: "0.24"
+  author:
+
+  description: |
+    全unicode码元
+
+  dependencies:
+    - luna_pinyin
+switches:
+  - name: ascii_mode
+    reset: 0
+    states: [ 中文, 西文 ]
+  - name: full_shape
+    states: [ 半角, 全角 ]
+  - name: simplification
+    states: [ 漢字, 汉字 ]
+  - name: ascii_punct
+    states: [ 。，, ．， ]
+
+engine:
+  processors:
+    - ascii_composer
+    - recognizer
+    - key_binder
+    - speller
+    - punctuator
+    - selector
+    - navigator
+    - express_editor
+  segmentors:
+    - ascii_segmentor
+    - matcher
+    - abc_segmentor
+    - punct_segmentor
+    - fallback_segmentor
+  translators:
+    - punct_translator
+    # - table_translator@custom_phrase
+    - reverse_lookup_translator
+    - script_translator
+  filters:
+    - simplifier
+    - uniquifier
+    - reverse_lookup_filter@fancha
+speller:
+  alphabet: zyxwvutsrqponmlkjihgfedcba0123456789
+  delimiter: " '"
+  auto_select: true
+  auto_select_pattern: "^[0-9]$"
+  enable_completion: true
+  algebra:
+
+    - derive/U/u/
+    - derive/U//
+
+
+translator:
+  dictionary: unicode
+  spelling_hints: 10
+  preedit_format:
+
+reverse_lookup:
+  dictionary: luna_pinyin
+  # spelling_hints: 8
+  prefix: "`"
+  suffix: ";"
+  tips: 〔拼音〕
+  closing_tips:
+  # contextual_suggestions: #優化
+  tag: reverse_lookup
+
+
+punctuator:
+  # import_preset: symbols
+
+key_binder:
+  import_preset: default
+  bindings:
+    - {accept: 0, send: KP_0, when: has_menu}
+    - {accept: 1, send: KP_1, when: has_menu}
+    - {accept: 2, send: KP_2, when: has_menu}
+    - {accept: 3, send: KP_3, when: has_menu}
+    - {accept: 4, send: KP_4, when: has_menu}
+    - {accept: 5, send: KP_5, when: has_menu}
+    - {accept: 6, send: KP_6, when: has_menu}
+    - {accept: 7, send: KP_7, when: has_menu}
+    - {accept: 8, send: KP_8, when: has_menu}
+    - {accept: 9, send: KP_9, when: has_menu}
+    - {accept: KP_0, send: 0, when: always}
+    - {accept: KP_1, send: 1, when: always}
+    - {accept: KP_2, send: 2, when: always}
+    - {accept: KP_3, send: 3, when: always}
+    - {accept: KP_4, send: 4, when: always}
+    - {accept: KP_5, send: 5, when: always}
+    - {accept: KP_6, send: 6, when: always}
+    - {accept: KP_7, send: 7, when: always}
+    - {accept: KP_8, send: 8, when: always}
+    - {accept: KP_9, send: 9, when: always}
+
+recognizer:
+  import_preset: default
+  patterns:
+    reverse_lookup: "`[a-z]*'?$"
+    punct: '^/([0-9]0?|[A-Za-z]+)$'
+    # reverse_lookup: "i[a-z]*'?$"
