@@ -41,6 +41,7 @@ engine:
     - ascii_segmentor
     - matcher
     - abc_segmentor
+    - affix_segmentor@unicode
     - affix_segmentor@pinyin
     - affix_segmentor@zyenpheng
     - punct_segmentor
@@ -255,7 +256,7 @@ zyenpheng:
 
 unicode:
   dictionary: unicode
-  tags: unicode
+  tag: unicode
   prefix: "u"
   # suffix: ";"
   tips: 〔unicode〕
