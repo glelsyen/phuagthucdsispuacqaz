@@ -16,7 +16,7 @@ impurt_tables:
 # O   侯   歌3   宵3   談3   元3   東
 # Ə   㞢   微1   幽2   侵1   文1   蒸
 # I   脂2  脂1   幽3   侵2   文2   
-# U   幽1  微2   幽2   侵3   文3   冬
+# U   幽1  微2   幽1   侵3   文3   冬
 #
 #
 ######
@@ -953,9 +953,9 @@ impurt_tables:
 ##JAS JAR
 貰	ZCjarp #ps
 
-斥	THjask	#ks
-㡿	THjask	#ks
-䞣	THjask
+斥	TCHjask	#ks
+㡿	TCHjask	#ks
+䞣	TCHjask
 䞣	TSHjask
 赦	SCjask	#ks
 夜	Jjask	#ks
@@ -966,7 +966,7 @@ impurt_tables:
 躤	DSjask
 唶	TSjask
 䣠	DSjast #ts
-炙	Tjask	#ks
+炙	TCjask	#ks
 䠶	ZCjask	#ks
 射	ZCjask
 麝	ZCjask
@@ -974,14 +974,14 @@ impurt_tables:
 榭	SZjask
 㴬	SZjask
 射	Jjask
-柘	Tjask	#ks
-遮	Tjax	#ks
-𠌮	Tjax
-樜	Tjask
-鷓	Tjask
-䗪	Tjask
-嗻	Tjask
-蔗	Tjask
+柘	TCjask	#ks
+遮	TCjax	#ks
+𠌮	TCjax
+樜	TCjask
+鷓	TCjask
+䗪	TCjask
+嗻	TCjask
+蔗	TCjask
 褯	DSjask #ks
 若	NCjaa	#ks
 婼	NCjax
@@ -992,7 +992,7 @@ impurt_tables:
 車	KHjax
 厙	SCjas
 硨	KHjax
-哆	THjah
+哆	TCHjah
 䬷	SCjah
 𠰒	NCjah
 乜	Mjah
@@ -1012,7 +1012,7 @@ impurt_tables:
 
 蝑	Sjas
 擨	Jjax
-社	Djah
+社	DCjah
 𣬕	Sjah
 卸	Sjas
 䉣	Sjas
@@ -1037,7 +1037,7 @@ impurt_tables:
 斜	SZjax
 䔑	Jjax
 斜	Jjax
-余	Djax
+余	DCjax
 賒	SCjax
 畬	SCjax
 冶	Jjah
@@ -1049,21 +1049,21 @@ impurt_tables:
 騇	SCjas
 涻	SCjas
 舍	SCjas
-𣝒	Djah	#宜𣝒
-𥁹	Djah
+𣝒	DCjah	#宜𣝒
+𥁹	DCjah
 野	Jjah
 𡐨	Jjah
-者	Tjah	#存古
-奲	THjah
-撦	THjah
+者	TCjah	#存古
+奲	TCHjah
+撦	TCHjah
 奢	SCjax
-㸙	Tjax
-赭	Tjah
-堵	Tjah
-㨋	THjah
-䰩	THjah
-闍	Djax
-諸	Tjax
+㸙	TCjax
+赭	TCjah
+堵	TCjah
+㨋	TCHjah
+䰩	TCHjah
+闍	DCjax
+諸	TCjax
 ###RA
 ##RAJ
 加	Qrajx
@@ -1175,9 +1175,9 @@ impurt_tables:
 㛗	TSHuujx
 也	Jjujh
 蛇	ZCjujx
-鍦	Djujx
-𥍸	Djujx
-鉈	Djujx
+鍦	DCjujx
+𥍸	DCjujx
+鉈	DCjujx
 虵	ZCjujx
 灺	SZjujh
 虵	Jjujh
@@ -1811,7 +1811,7 @@ impurt_tables:
 𣸆	TSjeh
 茈	TSjeh
 茈	DSjex
-䩃	Djes
+䩃	DCjes
 #䩃	DCjes
 頿	TSjex
 鴜	TSjex
@@ -1867,8 +1867,8 @@ impurt_tables:
 莿	TSHjes
 #觶	TCjex
 #觶	TCjes
-觶	Tjex
-觶	Tjes
+觶	TCjex
+觶	TCjes
 孈	Jjeh
 臡	NCjex
 𦭲	Gjex	#?
@@ -1962,25 +1962,25 @@ impurt_tables:
 翨	Kjes
 #徥	DCjeh
 #提	DCjex
-是	Djeh
-禔	Tjex
-𦑡	Djex
-㖷	Djex
-匙	Djex
-䈕	Djex
-堤	Djex
-禔	Djex
-𦳚	Djex
-媞	Djeh
-諟	Djeh
-褆	Djeh
-𢐂	Djes
-鯷	Djes
-䊓	Djes
+是	DCjeh
+禔	TCjex
+𦑡	DCjex
+㖷	DCjex
+匙	DCjex
+䈕	DCjex
+堤	DCjex
+禔	DCjex
+𦳚	DCjex
+媞	DCjeh
+諟	DCjeh
+褆	DCjeh
+𢐂	DCjes
+鯷	DCjes
+䊓	DCjes
 翨	Sjes
 翨	Kjes
-徥	Djeh
-提	Djex
+徥	DCjeh
+提	DCjex
 榹	Sjex
 㴲	Sjex
 磃	Sjex
@@ -2020,7 +2020,7 @@ impurt_tables:
 𠩗	Jjex
 𧠜	SCjex
 #豉	DCjes
-豉	Djes
+豉	DCjes
 𠁭	Gjex
 𥾣	Kjex
 汥	Kjex
@@ -2089,12 +2089,12 @@ impurt_tables:
 #巵	TCjex
 #梔	TCjex
 #㯄	TCjex
-巵	Tjex
-卮 	Tjex
-𠨬 	Tjex	0%
-𨆋 	Tjex	0%
-梔	Tjex
-㯄	Tjex
+巵	TCjex
+卮 	TCjex
+𠨬 	TCjex	0%
+𨆋 	TCjex	0%
+梔	TCjex
+㯄	TCjex
 #只	TCjex
 #胑	TCjex
 #疻	TCjex
@@ -2132,13 +2132,13 @@ impurt_tables:
 㭰	TSyex
 𦸺	TSyex
 㭰	TSyeh
-𥳙	Dyex
-圌	Dyex
-𦓝	Tyeh
-惴	Tyes
-𦦇	Tyes
-篅	Dyex
-瑞	Dyes
+𥳙	DCyex
+圌	DCyex
+𦓝	TCyeh
+惴	TCyes
+𦦇	TCyes
+篅	DCyex
+瑞	DCyes
 #𥳙	DCyex
 #圌	DCyex
 #𦓝	TCyeh
@@ -2724,14 +2724,14 @@ impurt_tables:
 庀	PHjijh
 疕	PHjijh
 #𧰲	TCHjijh
-𧰲	THjijh
+𧰲	TCHjijh
 豕	SCjijh
 ##JAJ
 詈	Ljajs
 #懘	TCHjajst	#ts
-懘	THjajst	#
+懘	TCHjajst	#
 #懘	TCHjajh	#
-懘	THjajh	#
+懘	TCHjajh	#
 㢋	KHjajh
 侈	KHjajh
 袳	KHjajh
@@ -2835,12 +2835,12 @@ impurt_tables:
 𢇌	Sjejh
 #寘	TCjejs
 #𡽆	TCjejs
-寘	Tjejs
-𡽆	Tjejs
+寘	TCjejs
+𡽆	TCjejs
 #坻	TCjejh
 #砥	TCjejh
-坻	Tjejh
-砥	Tjejh
+坻	TCjejh
+砥	TCjejh
 唲	NCjejx
 兒	NCjejx
 𠒆	NCjejx
@@ -2850,7 +2850,7 @@ impurt_tables:
 檷	Mjejx
 𥎖	Mjejx
 𩰞	Mjejh
-𩍲	Tjejx
+𩍲	TCjejx
 #𩍲	TCjejx
 邇	NCjejh
 爾	NCjejh
@@ -2858,7 +2858,7 @@ impurt_tables:
 𪓿	SCjejx
 壐	Sjejh
 璽	Sjejh
-䌳	THjejx
+䌳	TCHjejx
 #䌳	TCHjejx
 䌳	SCjejx
 䌳	Sjejx
@@ -2968,22 +2968,22 @@ impurt_tables:
 䶴	KHyujx
 䶴	KHyujs
 炊	KHyujx
-𠂹	Dyujx
-𠃀	Dyujx
-垂	Dyujx
-捶	Tyujh
-箠	Tyujh
-䮔	Tyujh
-𦥻	Tyujs
-陲	Dyujx
-倕	Dyujx
-𦈼	Dyujx
-𨿠	Dyujx
-𡍮	Dyujx
-菙	Dyujh
-睡	Dyujs
-𨿠	Dyujs
-䅜	Dyujs
+𠂹	DCyujx
+𠃀	DCyujx
+垂	DCyujx
+捶	TCyujh
+箠	TCyujh
+䮔	TCyujh
+𦥻	TCyujs
+陲	DCyujx
+倕	DCyujx
+𦈼	DCyujx
+𨿠	DCyujx
+𡍮	DCyujx
+菙	DCyujh
+睡	DCyujs
+𨿠	DCyujs
+䅜	DCyujs
 #𠂹	DCyujx
 #𠃀	DCyujx
 #垂	DCyujx
@@ -3607,7 +3607,7 @@ impurt_tables:
 𧑜	Bjix
 䫁	Bjis
 鵧	Bjix	#
-䛗	Tjih	#
+䛗	TCjih	#
 𧠥	TSHjix	#
 次	TSHjis	#
 姿	TSjix
@@ -3712,10 +3712,10 @@ impurt_tables:
 㞓	KHjis
 𦓀	Gjix
 鮨	Gjix	#?
-𩊞	Tjis
-懥	Tjis
-礩	Tjis
-𧿲	Tjih
+𩊞	TCjis
+懥	TCjis
+礩	TCjis
+𧿲	TCjih
 姊	TSjih
 秭	TSjih
 趀	TSHjix
@@ -3792,9 +3792,9 @@ impurt_tables:
 
 耆	Gxix
 𧪡	KHjix
-嗜	Djis
-𩝙	Djis
-𨢍	Djis
+嗜	DCjis
+𩝙	DCjis
+𨢍	DCjis
 蓍	SCjix
 鬐	Gxix
 愭	Gxix
@@ -3913,9 +3913,9 @@ impurt_tables:
 貤	Jjejs
 羨	Jjejx
 ##JIJ
-𪀒	THjijx
-胵	THjijx
-𨒬	THjijx
+𪀒	TCHjijx
+胵	TCHjijx
+𨒬	TCHjijx
 示	ZCjijs
 祁	Kjijx
 視	Gjijx
@@ -3927,19 +3927,19 @@ impurt_tables:
 朼	Pjijh
 疕	Pjijh
 牝	Bjijh
-祗	Tjijx
-砥	Tjijx
-厎	Tjijs
-砥	Tjijh
-茋	Tjijh
-鴟	THjijx
-𨾦	THjijx
-𩶅	THjijx
-眡	Djijs
-眡	Djijh
-泜	Tjijx
-䓜	Tjijx
-𥁼	Tjijx
+祗	TCjijx
+砥	TCjijx
+厎	TCjijs
+砥	TCjijh
+茋	TCjijh
+鴟	TCHjijx
+𨾦	TCHjijx
+𩶅	TCHjijx
+眡	DCjijs
+眡	DCjijh
+泜	TCjijx
+䓜	TCjijx
+𥁼	TCjijx
 棃	Ljijx
 梨	Ljijx
 蔾	Ljijx
@@ -3995,11 +3995,11 @@ impurt_tables:
 䆊	DSyojs
 葰	Syojx
 荾	Syojx
-隹	Tyojx
+隹	TCyojx
 奞	Syojx
-誰	Dyojx
-蓷	THyojx
-推	THyojx
+誰	DCyojx
+蓷	TCHyojx
+推	TCHyojx
 嶉	TSyojx
 嶉	TSyojh
 雖	Syojx
@@ -4007,14 +4007,14 @@ impurt_tables:
 唯	Jyojx
 蓶	Jyojh
 唯	Jyojh
-錐	Tyojx
-𪋇	Tyojx
-騅	Tyojx
-㮅	Tyojx
-䶆	Tyojx
-萑	Tyojx
-鵻	Tyojx
-脽	Dyojx
+錐	TCyojx
+𪋇	TCyojx
+騅	TCyojx
+㮅	TCyojx
+䶆	TCyojx
+萑	TCyojx
+鵻	TCyojx
+脽	DCyojx
 趡	TSHyojh
 踓	TSHyojh
 𨿐	TSHyojh
@@ -4038,7 +4038,7 @@ impurt_tables:
 捼	NCyojx
 檇	TSyojx
 檇	TSyojs
-䜅	Dyojx
+䜅	DCyojx
 䜅	Jyojx
 瓃	Lyojx
 鸓	Lyojx
@@ -4292,19 +4292,19 @@ impurt_tables:
 ##UR ju
 出	KHyost	#ts
 ##IR
-𢄢	Tjirp #T ps
-摯	Tjirp
-贄	Tjirp
-鷙	Tjirp
-䥍	Tjirp
-䲀	Tjirp
-𡠗	Tjirp
+𢄢	TCjirp #T ps
+摯	TCjirp
+贄	TCjirp
+鷙	TCjirp
+䥍	TCjirp
+䲀	TCjirp
+𡠗	TCjirp
 勩	Jjirp	#ps
 諡	ZCjisk #ks
 謚	ZCjisk
 侐	HSyisk #ks
-至	Tjisk #ks
-痓	THjisk
+至	TCjisk #ks
+痓	TCHjisk
 洎	Kxisk	#ks
 洎	Gxisk
 垍	Gxisk
@@ -6769,7 +6769,7 @@ impurt_tables:
 ###IO
 ##IA
 車	Kiox
-䰞	Tioh
+䰞	TCjoh
 㼋	NCjoh
 馭	NGios	 #御
 鄦	HSioh
@@ -6783,7 +6783,7 @@ impurt_tables:
 醧	HQios
 舁	Jjox
 𠢈	Kioh
-杵	THioh
+杵	TCHjoh
 許	HSioh
 圩	KHiox
 摴	TRHxox
@@ -6813,8 +6813,8 @@ impurt_tables:
 𦺗	SCjox
 𨛭	SCjox
 鵨	SCjox
-野	Dioh
-墅	Dioh
+野	DCjoh
+墅	DCjoh
 与	Jjoh
 𢌱	Jjoh
 與	Jjoh
@@ -6873,31 +6873,31 @@ impurt_tables:
 敘	SZjoh
 漵	SZjoh
 瑹	SCjox
-蜍	Diox
-稌	Diox
+蜍	DCjox
+稌	DCjox
 
-諸	Tiox
-藷	Dios
-藷	Tiox
-翥	Tios
-䬡	Tios
-䘄	Tios
+諸	TCjox
+藷	DCjos
+藷	TCjox
+翥	TCjos
+䬡	TCjos
+䘄	TCjos
 緒	SZjoh
-𧄔	Tiox
-𧄔	Diox
-署	Dios
-薯	Dios
+𧄔	TCjox
+𧄔	DCjox
+署	DCjos
+薯	DCjos
 暑	SCjoh
-曙	Dios
-糬	Dios
-㶆	Tiox
-櫧	Tiox
-䃴	Tiox
-蠩	Tiox
-陼	Tioh
-渚	Tioh
-煑	Tioh
-煮	Tioh
+曙	DCjos
+糬	DCjos
+㶆	TCjox
+櫧	TCjox
+䃴	TCjox
+蠩	TCjox
+陼	TCjoh
+渚	TCjoh
+煑	TCjoh
+煮	TCjoh
 書	SCjox	#𦘠
 𦘠	SCjox
 處	KHios
@@ -6910,14 +6910,14 @@ impurt_tables:
 黍	SCjoh	#H-
 𧑓	SCjoh
 庶	SCjos
-𢉙	Tios
+𢉙	TCjos
 㵂	SCjos
 樜	SCjos
-䭖	Tios
-𡻠	Tios
-𤳯	Tios
-㫂	Tios
-𤳐	Tios
+䭖	TCjos
+𡻠	TCjos
+𤳯	TCjos
+㫂	TCjos
+𤳐	TCjos
 
 且	TSjox
 蛆	TSjox
@@ -7771,35 +7771,35 @@ impurt_tables:
 
 #銳音
 㼌	Jyuh
-䜴	TZHxəus
+䜴	TZHxus
 趍	TSHyux
-搊	TZxəux
-裯	DRxəux
-𤠾	TRHxəux
-貙	TRHxəux
-芻	TZHxəux
-厨	DRxəux
-趎	DRxəux
-媰	DZxəux
-犓	TZHxəux
-䅳	DZxəux
-廚	DRxəux
-幮	DRxəux
-雛	DZxəux
-櫥	DRxəux
-蹰	DRxəux
-鶵	DZxəux
-躕	DRxəux
-亍	TRxəus
-𢨸	TRHxəus
-䦌	TRHxəus
-𨳳	TRHxəus
-丶	TRxəuh
-枓	Tuuh
-逗	DRxəus	5%
-几	Duux	1%
+搊	TZxux
+裯	DRxux
+𤠾	TRHxux
+貙	TRHxux
+芻	TZHxux
+厨	DRxux
+趎	DRxux
+媰	DZxux
+犓	TZHxux
+䅳	DZxux
+廚	DRxux
+幮	DRxux
+雛	DZxux
+櫥	DRxux
+蹰	DRxux
+鶵	DZxux
+躕	DRxux
+亍	TRxus
+𢨸	TRHxus
+䦌	TRHxus
+𨳳	TRHxus
+丶	TRxuh
+枓	TCyuh
+逗	DRxus	5%
+几	DCyux	1%
 
-列	TRxəux	1%
+列	TRxux	1%
 瞜	Lyux
 婁	Lyux
 𡝤	Lyux
@@ -7864,47 +7864,47 @@ impurt_tables:
 㹘	NCyus
 㼱	NCyux
 抌	Jyuh
-𠘧	Duux
-𢎦	Duux	#𠘧
-殳	Duux
-杸	Duux
-𦤂	Duux
-陎	Duux
-姝	THuux
-殊	Duux
-㼡	Duux
-㸡	Duux
+𠘧	DCyux
+𢎦	DCyux	#𠘧
+殳	DCyux
+杸	DCyux
+𦤂	DCyux
+陎	DCyux
+姝	TCHyux
+殊	DCyux
+㼡	DCyux
+㸡	DCyux
 鄃	Jyux
 鄃	SCyux
 㡏	SSxəux
 㡏	SSxəus
 毹	SSxəux
-樞	THuux
-𩪍	THuux
+樞	TCHyux
+𩪍	TCHyux
 輸	SCyux
 輸	SCyus
-籔	SSxəuh
+籔	SSxuh
 戍	SCyus
-捒	SSxəus
-𦒸	Duus
+捒	SSxus
+𦒸	DCyus
 㲓	SCyus
-𠊪	Duus
-尌	Duus
-裋	Duuh
-竪	Duuh
+𠊪	DCyus
+尌	DCyus
+裋	DCyuh
+竪	DCyuh
 腧	SCyus
-豎	Duuh
-數	SSxəus
-數	SSxəuh	3%
-澍	Tuus
-澍	Duus
+豎	DCyuh
+數	SSxus
+數	SSxuh	3%
+澍	TCyus
+澍	DCyus
 𧼯	SCyus
-樹	Duus
-樹	Duuh	20%
+樹	DCyus
+樹	DCyuh	20%
 䠼	SCyus
 䩱	Jyux
 䩱	SCyus
-螋	SSxəux
+螋	SSxux
 緰	Syux
 尠	Syus
 須	Syux
@@ -7952,7 +7952,7 @@ impurt_tables:
 瑜	Jyux
 榆	Jyux
 𥔢	Jyux
-牏	DRxəus
+牏	DRxus
 牏	Jyux
 㼶	Jyux
 歈	Jyux
@@ -7996,78 +7996,78 @@ impurt_tables:
 諭	Jyus
 癒	Jyuh
 籲	Jyus
-㑳	TZxəux
-朱	Tuux
-邾	TRxəux
-侏	Tuux
-茱	Duux
-咮	Tuux
-咮	TRxəus
-𤝹	Tuux
-洙	Duux
-珠	Tuux
-株	TRxəux
-㦵	TRxəux
-硃	Tuux
-秼	Tuux
-袾	THuux
-袾	TRxəux
-蛛	TRxəux
-䇬	THuux
-絑	Tuux
-跦	TRxəux
-誅	TRxəux
-銖	Duux
-鴸	Tuux
-鴸	TRxəux
-鮢	Tuux
-𪏿	TRxəux
-鼄	TRxəux
-主	Tuuh
-炷	Tuuh
-𪐴	TRxəuh
-拄	TRxəuh
-宔	Tuuh
-罜	Tuus
-麈	Tuuh
-住	DRxəus
-住	TRxəus	5%
-㹥	Tuus
-注	Tuus
-壴	TRxəus
-柱	DRxəuh
-柱	TRxəuh
-炷	Tuus
-砫	Tuuh
-𠴦	Tuus
-疰	Tuus
-祩	Tuus
-蛀	Tuus
-䎷	Tuus
-軴	TRxəus
-跓	DRxəuh
-嵀	DRxəuh
-註	Tuus
-註	TRxəus
-鉒	TRxəus
-駐	TRxəus
-䪒	Tuus
-䐢	TZHxəus
-霔	Tuus
-馵	Tuus
-㺛	Tuus
-𨙔	TRxəus
-鑄	Tuus
+㑳	TZxux
+朱	TCyux
+邾	TRxux
+侏	TCyux
+茱	DCyux
+咮	TCyux
+咮	TRxus
+𤝹	TCyux
+洙	DCyux
+珠	TCyux
+株	TRxux
+㦵	TRxux
+硃	TCyux
+秼	TCyux
+袾	TCHyux
+袾	TRxux
+蛛	TRxux
+䇬	TCHyux
+絑	TCyux
+跦	TRxux
+誅	TRxux
+銖	DCyux
+鴸	TCyux
+鴸	TRxux
+鮢	TCyux
+𪏿	TRxux
+鼄	TRxux
+主	TCyuh
+炷	TCyuh
+𪐴	TRxuh
+拄	TRxuh
+宔	TCyuh
+罜	TCyus
+麈	TCyuh
+住	DRxus
+住	TRxus	5%
+㹥	TCyus
+注	TCyus
+壴	TRxus
+柱	DRxuh
+柱	TRxuh
+炷	TCyus
+砫	TCyuh
+𠴦	TCyus
+疰	TCyus
+祩	TCyus
+蛀	TCyus
+䎷	TCyus
+軴	TRxus
+跓	DRxuh
+嵀	DRxuh
+註	TCyus
+註	TRxus
+鉒	TRxus
+駐	TRxus
+䪒	TCyus
+䐢	TZHxus
+霔	TCyus
+馵	TCyus
+㺛	TCyus
+𨙔	TRxus
+鑄	TCyus
 取	TSHyuh
 娶	TSHyus
 娶	Syux
 趣	TSHyus
-䝒	DZxəuh
+䝒	DZxuh
 陬	TSyux
 掫	TSyux
-菆	TZHxəus
+菆	TZHxus
 緅	TSyus
-𧱛	DZxəuh
+𧱛	DZxuh
 諏	TSyux
 鄹	DSyuh
 鯫	TSHyux
@@ -8078,7 +8078,7 @@ impurt_tables:
 聚	DSyus
 聚	DSyuh
 足	TSyus	2%
-嗺	TSyu
+嗺	TSyux
 咻	HSuoh
 ##IU
 孚	PHuox
@@ -8839,12 +8839,12 @@ impurt_tables:
 斃	Bjert
 幣	Bjert
 丿	Jjert
-忕	Djert #ts
-䠠	Tjert
-𤢻	THjert
-懘	THjert
-㛳	Tjert	#?ks
-𢝃	Tjert
+忕	DCjert #ts
+䠠	TCjert
+𤢻	TCHjert
+懘	TCHjert
+㛳	TCjert	#?ks
+𢝃	TCjert
 㛳	Jjert
 袂	Mjert
 𦒎	Jjert
@@ -8853,7 +8853,7 @@ impurt_tables:
 鰶	TSjert
 祭	TSjert
 䰏	TSjert
-銐	THjert
+銐	TCHjert
 例	Ljert
 㾐	Ljert
 鮤	Ljert
@@ -8868,12 +8868,12 @@ impurt_tables:
 觢	Gjert
 𦚨	Gjert
 𤸪	KHjert
-筮	Djert
-噬	Djert
-簭	Djert
-澨	Djert
-遾	Djert
-𢜳	THjert	#?
+筮	DCjert
+噬	DCjert
+簭	DCjert
+澨	DCjert
+遾	DCjert
+𢜳	TCHjert	#?
 砅	Ljert
 礪	Ljert
 勵	Ljert
@@ -8917,7 +8917,7 @@ impurt_tables:
 疶	Jjert
 𦐕	Jjert
 怈	Jjert
-迣	Tjerp
+迣	TCjerp
 泄	Jjerp
 枻	Jjerp
 詍	Jjerp
@@ -8936,19 +8936,19 @@ impurt_tables:
 裔	Jjert
 㵝	Jjert
 䕍	Jjert
-晢	Tjert
-䇽	Tjert
-㝂	Tjert
-䀸	Tjert
-狾	Tjert
-𥍭	Tjert
-䩢	Tjert
-䭁	Tjert
-逝	Djert
-誓	Djert
-𣂯	Djert
-銴	Djert
-𧻸	Djert
+晢	TCjert
+䇽	TCjert
+㝂	TCjert
+䀸	TCjert
+狾	TCjert
+𥍭	TCjert
+䩢	TCjert
+䭁	TCjert
+逝	DCjert
+誓	DCjert
+𣂯	DCjert
+銴	DCjert
+𧻸	DCjert
 㑜	Jjert
 𢂼	Jjert
 𠛐	Kjert
@@ -9001,11 +9001,11 @@ impurt_tables:
 蜹	Jyerp
 𤂳	TSHyert
 𣃍	TSHyert
-𠭥	Tyert
-𢿆	Tyert
+𠭥	TCyert
+𢿆	TCyert
 𧑎	TSyert
 𧑎	TSHyert
-贅	Tyert
+贅	TCyert
 軎	SZyert	#sɢʷ
 𥱵	SZyert
 睿	Jyert
@@ -9013,7 +9013,7 @@ impurt_tables:
 𢄢	SCyert
 歲	Syert
 銴	Jyert
-啜	Dyert
+啜	DCyert
 ###XER
 㿃	TRxert
 蹛	DRxert
@@ -10963,23 +10963,23 @@ impurt_tables:
 糔	Sjuvh	#豪
 醜	TCHjuvh	#?L
 𧃝	TCHjuvh
-壽	Djuvh
-魗	THjuvx	#醜
-媿	THjuvh
-𩳜	THjuvh
-𣫐	Djuvx
-𣀓	Djuvx
-醻	Djuvx
-魗	Djuvx
-𨞪	Djuvx
-𨞪	Djuvh
-璹	Djuvh
-壽	Djuvs
-雔	Djuvx
-犨	THjuvx
-犫	THjuvx
-讎	Djuvx
-售	Djuvs
+壽	DCjuvh
+魗	TCHjuvx	#醜
+媿	TCHjuvh
+𩳜	TCHjuvh
+𣫐	DCjuvx
+𣀓	DCjuvx
+醻	DCjuvx
+魗	DCjuvx
+𨞪	DCjuvx
+𨞪	DCjuvh
+璹	DCjuvh
+壽	DCjuvs
+雔	DCjuvx
+犨	TCHjuvx
+犫	TCHjuvx
+讎	DCjuvx
+售	DCjuvs
 沑	NCjuvh
 粈	NCjuvh
 囮	Jjuvx
@@ -11078,34 +11078,34 @@ impurt_tables:
 牖	Jjuvh
 揄	Jjuvx
 𢋅	Jjuvx
-受	Djuvh
-綬	Djuvh
-授	Djuvs
-㖟	Djuvs
-綬	Djuvs
+受	DCjuvh
+綬	DCjuvh
+授	DCjuvs
+㖟	DCjuvs
+綬	DCjuvs
 𨛶	NCjuvx
-州	Tjuvx
-洲	Tjuvx
-喌	Tjuvx
-酬	Djuvx
-詶	Djuvx
-詶	Djuvs
-周	Tjuvx
-𥺝	Tjuvx
-輖	Tjuvx
-賙	Tjuvx
-郮	Tjuvx
-婤	Tjuvx
-晭	Tjuvh
-𧳜	Tjuvh
-䯾	Tjuvs
-椆	Tjuvs
+州	TCjuvx
+洲	TCjuvx
+喌	TCjuvx
+酬	DCjuvx
+詶	DCjuvx
+詶	DCjuvs
+周	TCjuvx
+𥺝	TCjuvx
+輖	TCjuvx
+賙	TCjuvx
+郮	TCjuvx
+婤	TCjuvx
+晭	TCjuvh
+𧳜	TCjuvh
+䯾	TCjuvs
+椆	TCjuvs
 守	SCjuvh
 狩	SCjuvs
 守	SCjuvs
-帚	Tjuvh
-箒	Tjuvh
-鯞	Tjuvh
+帚	TCjuvh
+箒	TCjuvh
+鯞	TCjuvh
 柔	NCjuvx
 鍒	NCjuvx
 㽥	NCjuvx
@@ -11570,14 +11570,14 @@ impurt_tables:
 殧	DSjəvsk
 㠇	DSjəvsk
 宿	Sjəvh	#ks
-呪	Tjuvsk	#ks UKS
-祝	Tjuvsk
-詋	Tjuvsk
-詶	Tjuvsk
-咒	Tjuvsk
-𥛽	Tjuvsk
-䄂	Tjuvsk
-䛆	Tjuvsk
+呪	TCjuvsk	#ks UKS
+祝	TCjuvsk
+詋	TCjuvsk
+詶	TCjuvsk
+咒	TCjuvsk
+𥛽	TCjuvsk
+䄂	TCjuvsk
+䛆	TCjuvsk
 ###XUR
 畜	TRHxəvsk	#ks
 噣	TRxəvsk	#ks
@@ -12193,7 +12193,7 @@ impurt_tables:
 䱒	HQiap
 裛	HQiap
 浥	HQiap
-譫	TCiap
+譫	TCjap	#?
 ###UAM
 ##IAM
 𥁔	PHuaf
@@ -12746,25 +12746,25 @@ impurt_tables:
 妗	KHjam
 酓	HQjab
 熸	TSjam
-厃	Tjam
-詹	Tjam
-䦲	THjaf
+厃	TCjam
+詹	TCjam
+䦲	TCHjaf
 𣡞	Jjam
 䦲	Jjam
-瞻	Tjam
-蟾	Tjam
-噡	Tjam
-䪜	THjam
-幨	THjam
-襜	THjam
-䠨	THjaf
-幨	THjaf
-襜	THjaf
-韂	THjaf
-䪜	THjaf
-㙴	THjaf
-蟾	Djam
-贍	Djaf
+瞻	TCjam
+蟾	TCjam
+噡	TCjam
+䪜	TCHjam
+幨	TCHjam
+襜	TCHjam
+䠨	TCHjaf
+幨	TCHjaf
+襜	TCHjaf
+韂	TCHjaf
+䪜	TCHjaf
+㙴	TCHjaf
+蟾	DCjam
+贍	DCjaf
 檐	Jjam
 簷	Jjam
 漸	TSjam
@@ -12814,7 +12814,7 @@ impurt_tables:
 獫	Ljaf
 𣠺	TSHjap
 𨣻	HQjam
-㾆	THjam
+㾆	TCHjam
 呥	NCjam
 𩓾	NCjam
 髯	NCjam
@@ -12837,7 +12837,7 @@ impurt_tables:
 閃	SCjab
 閃	SCjaf
 𤍙	SZjam
-剡	Djab
+剡	DCjab
 覝	Ljam
 淡	Jjab
 剡	Jjab
@@ -12847,11 +12847,11 @@ impurt_tables:
 𢅮	SZjam
 燅	SZjam
 𤏝	SZjam
-裧	THjam
-𤎥	THjam
-緂	THjam
-𢃔	THjam
-裧	THjaf
+裧	TCHjam
+𤎥	TCHjam
+緂	TCHjam
+𢃔	TCHjam
+裧	TCHjaf
 睒	SCjab
 覢	SCjab
 掞	SCjaf
@@ -12876,9 +12876,9 @@ impurt_tables:
 ##JEM
 㰈	Ljeb
 㯬	Ljeb
-䤮	Djep
-涉	Djep
-𣻣	Djep
+䤮	DCjep
+涉	DCjep
+𣻣	DCjep
 弽	SCjep
 韘	SCjep
 枼	Jjep
@@ -12891,13 +12891,13 @@ impurt_tables:
 殜	Jjep
 葉	SCjep
 葉	Jjep
-囁	Tjep
-懾	Tjep
-𣠞	Tjep
-襵	Tjep
-䝕	Tjep
-𣠞	THjep
-欇	Djep
+囁	TCjep
+懾	TCjep
+𣠞	TCjep
+襵	TCjep
+䝕	TCjep
+𣠞	TCHjep
+欇	DCjep
 讘	NCjep
 顳	NCjep
 囁	NCjep
@@ -12921,7 +12921,7 @@ impurt_tables:
 㚒	SCjeb
 陝	SCjeb
 𡟨	SCjeb
-喢	THjep
+喢	TCHjep
 䀹	TSjep
 脥	KHjeb
 𥪂	Ljep
@@ -12999,38 +12999,38 @@ impurt_tables:
 𣄉	HQjep	#擪
 靨	HQjep
 嬮	HQjep
-㤴	THjep
-㳧	THjep
-𦛖	THjep
+㤴	TCHjep
+㳧	TCHjep
+𦛖	TCHjep
 䅧	HQjem
 苫	SCjem
 苫	SCjef
 煔	SCjef
 𡝫	SCjem
 𥮒	DSjem
-占	Tjem
-颭	Tjeb
-占	Tjef
-㚲	THjem
-𢛈	THjem
-㚲	THjep
-詀	THjep
+占	TCjem
+颭	TCjeb
+占	TCjef
+㚲	TCHjem
+𢛈	TCHjem
+㚲	TCHjep
+詀	TCHjep
 蛅	NCjem
 痁	SCjem
 枮	Sjem
 阽	Jjem
-慹	Tjep
-謺	Tjep
+慹	TCjep
+謺	TCjep
 鋟	TSjem
 綅	Sjem
 𦃌	Sjem
 䯹	Sjem
 ##JOM
-棎	Djum
-讋	Tjup
-𧮩	Tjup
+棎	DCjum
+讋	TCjup
+𧮩	TCjup
 燂	DSjum
-撏	Djum
+撏	DCjum
 燖	SZjum	#燂
 染	NCjub
 𩃵	NCjub
@@ -13038,12 +13038,12 @@ impurt_tables:
 染	NCjuf
 𧴭	SCjub
 彡	Sjum
-霅	Tjup
-䜆	Tjup
-慴	Tjup
-謵	THjup
+霅	TCjup
+䜆	TCjup
+慴	TCjup
+謵	TCHjup
 䌌	TSHjup
-摺	Tjup
+摺	TCjup
 鍼	Gjum
 燄	Jjub
 淊	Jjub
@@ -13235,13 +13235,13 @@ impurt_tables:
 𠦫	DSjip
 箿	DSjip
 揖	HQjip
-𡙕	Tjip
-𡣼	Tjip
-執	Tjip
-瓡	Tjip
-䥍	Tjip
-𡠗	Tjip
-慹	Tjip
+𡙕	TCjip
+𡣼	TCjip
+執	TCjip
+瓡	TCjip
+䥍	TCjip
+𡠗	TCjip
+慹	TCjip
 蓻	TSjip
 慹	DSjip
 寖	TSjib
@@ -13307,7 +13307,7 @@ impurt_tables:
 十	Gjop
 什	Gjop
 卌	Sjop
-褶	Djop
+褶	DCjop
 霫	Sjop
 㗩	Sjop
 習	SZjop
@@ -13336,13 +13336,13 @@ impurt_tables:
 𦅀	SZjom
 
 沈	SCjob
-枕	Tjob
-䪴	Tjob
-枕	Tjof
-訦	Djom
-忱	Djom
-㽸	Djom
-訦	Djob
+枕	TCjob
+䪴	TCjob
+枕	TCjof
+訦	DCjom
+忱	DCjom
+㽸	DCjom
+訦	DCjob
 邥	SCjob
 魫	SCjob
 𣜣	DSjom
@@ -18627,7 +18627,7 @@ impurt_tables:
 焛	Ljiz
 㲺	TSjit
 柒	TSHjit
-叱	THjit
+叱	TCHjit
 七	TSHjit
 漆	TSHjit
 䣛	TSHjit
@@ -18788,45 +18788,45 @@ impurt_tables:
 婣	HQjin
 枃	TSjiz
 笉	TSHjid
-眞	Tjin
-真	Tjin
-禛	Tjin
-稹	Tjin
-磌	Tjin
-蒖	Tjin
-縝	Tjid
-鬒	Tjid
-槙	Tjid
-縝	Tjid
-黰	Tjid
-𣞟	Tjid
-稹	Tjid
-瞋	THjin
-嗔	THjin
-謓	THjin
-䐜	THjin
-𣞟	THjin
-縝	THjin
-慎	Djiz
+眞	TCjin
+真	TCjin
+禛	TCjin
+稹	TCjin
+磌	TCjin
+蒖	TCjin
+縝	TCjid
+鬒	TCjid
+槙	TCjid
+縝	TCjid
+黰	TCjid
+𣞟	TCjid
+稹	TCjid
+瞋	TCHjin
+嗔	TCHjin
+謓	TCHjin
+䐜	TCHjin
+𣞟	TCHjin
+縝	TCHjin
+慎	DCjiz
 𦎷	TSjiz
 𩋡	SCjit
 室	SCjit
 臸	NCjit
-晊	Tjit
-郅	Tjit
-桎	Tjit
-蛭	Tjit
-銍	Tjit
-侄	Tjit
-騭	Tjit
-櫍	Tjit
-劕	Tjit
-䑇	Tjit
-鑕	Tjit
-𡂒	Tjit
-懫	Tjit
-礩	Tjit
-質	Tjit
+晊	TCjit
+郅	TCjit
+桎	TCjit
+蛭	TCjit
+銍	TCjit
+侄	TCjit
+騭	TCjit
+櫍	TCjit
+劕	TCjit
+䑇	TCjit
+鑕	TCjit
+𡂒	TCjit
+懫	TCjit
+礩	TCjit
+質	TCjit
 ###YIN
 ##VIN
 灥	SZyin
@@ -18880,14 +18880,14 @@ impurt_tables:
 汮	Kyin
 呁	Kyiz
 𧥺	Kyiz
-𢗋	Dyin
+𢗋	DCyin
 畇	Syin
 𠣙	SZyin
 畇	SZyin
 𢓈	SZyiz
 勻	Jyin
 畇	Jyin
-𦚧	THyid
+𦚧	TCHyid
 眴	NCyin
 眴	SCyiz
 郇	Syin
@@ -18916,15 +18916,15 @@ impurt_tables:
 徇	SZyiz
 侚	SZyiz
 㽦	SZyin	#均
-準	Tyid
+準	TCyid
 𣯍	NCyid
 隼	Syid
 奞	Syiz
-准	Tyid
+准	TCyid
 鵻	Syid
 ##YUN JUN文2 YIN 
 出	GHyot
-陙	Dyon
+陙	DCyon
 脣	ZCyon
 漘	ZCyon
 䔚	ZCyon
@@ -18946,21 +18946,21 @@ impurt_tables:
 𧪞	Syot
 儁	TSyoz
 寯	TSyoz
-諄	Tyon
-惇	Tyon
-𥇜	Tyon
-埻	Tyod
-諄	Tyoz
-𥇜	Tyoz
-𦎫	Dyon
-醇	Dyon
-鶉	Dyon
-錞	Dyon
-淳	Dyon
-焞	Dyon
+諄	TCyon
+惇	TCyon
+𥇜	TCyon
+埻	TCyod
+諄	TCyoz
+𥇜	TCyoz
+𦎫	DCyon
+醇	DCyon
+鶉	DCyon
+錞	DCyon
+淳	DCyon
+焞	DCyon
 犉	NCyon
-稕	Tyoz
-𦽑	Tyoz
+稕	TCyoz
+𦽑	TCyoz
 寽	Lyot
 𥭐	Lyot
 淪	Lyon
@@ -19007,34 +19007,34 @@ impurt_tables:
 䀢	SCyoz
 瞚	SCyoz
 眴	SCyoz
-僢	THyod	#舛
+僢	TCHyod	#舛
 䳳	Syot	#祟uts
 𥚋	Syot
 𨜿	Syot
-𡗥	Dyon
-純	Tyod
-蒓	Dyon
-純	Dyon
-訰	Tyon
-盹	Tyoz
-訰	Tyoz
-䣩	Dyon
-肫	Tyon
-萅	THyon
-𧅪	THyod
-𢧸	THyod
-𨅱	THyod
-𢧨	THyod
-𢡳	THyod
-𠎲	THyod
+𡗥	DCyon
+純	TCyod
+蒓	DCyon
+純	DCyon
+訰	TCyon
+盹	TCyoz
+訰	TCyoz
+䣩	DCyon
+肫	TCyon
+萅	TCHyon
+𧅪	TCHyod
+𢧸	TCHyod
+𨅱	TCHyod
+𢧨	TCHyod
+𢡳	TCHyod
+𠎲	TCHyod
 𩯐	SCyoz
-春	THyon
-蠢	THyod
-䐏	THyod
-踳	THyod
-惷	THyod
-偆	THyod
-𢾎	THyod
+春	TCHyon
+蠢	TCHyod
+䐏	TCHyod
+踳	TCHyod
+惷	TCHyod
+偆	TCHyod
+𢾎	TCHyod
 賰	SCyod
 鬊	SCyoz
 𧾣	Kyot	#?
@@ -19086,7 +19086,7 @@ impurt_tables:
 玧	Jyod
 𡴞	Jyod
 𧉃	Jyod
-蓴	Dyon
+蓴	DCyon
 卒	TSyot
 𣨛	TSyot
 䱣	TSyot
@@ -23351,16 +23351,16 @@ impurt_tables:
 屏	Pjeg
 摒	Pjeq
 偋	Bjeq
-尺	THjek
-蚇	THjek
+尺	TCHjek
+蚇	TCHjek
 赤	KHjek
 烾	KHjek
 郝	KHjek
 郝	SCjek
 # 赦	SCjak
 螫	SCjek
-𠧚	THjek	#?
-𠧵	THjek
+𠧚	TCHjek	#?
+𠧵	TCHjek
 朿	TSHjek
 刺	TSHjek
 𨒪	TSjek
@@ -23378,27 +23378,27 @@ impurt_tables:
 𪃹	TSjek
 鯽	TSjek
 # 啻	SCjeks
-𨗁	Tjek
+𨗁	TCjek
 𨗁	Kjek
 𨗁	SCjek
-適	Tjek
+適	TCjek
 適	Kjek
 適	SCjek
 𡣪	SCjek
-成	Djec
-𢦩	Djec
-城	Djec
-𩫨	Djec
-誠	Djec
-宬	Djec
-郕	Djec
-筬	Djec
-珹	Djec
-䫆	Djec
-晟	Djeq
-盛	Djec
-盛	Djeq
-墭	Djeq
+成	DCjec
+𢦩	DCjec
+城	DCjec
+𩫨	DCjec
+誠	DCjec
+宬	DCjec
+郕	DCjec
+筬	DCjec
+珹	DCjec
+䫆	DCjec
+晟	DCjeq
+盛	DCjec
+盛	DCjeq
+墭	DCjeq
 𥇡	Jjek
 𥇝	Jjek
 𦆎	Jjek
@@ -23430,8 +23430,8 @@ impurt_tables:
 檡	SCjek
 𦔥	SCjek
 䁺	SCjek
-㚖	THjek
-䨥	Tjek
+㚖	TCHjek
+䨥	TCjek
 蹐	TSjek
 𩺀	TSjek
 脊	TSjek
@@ -23474,8 +23474,8 @@ impurt_tables:
 眳	Mjeg
 詺	Mjeq
 慏	Mjeg
-㡿	THjek
-斥	THjek
+㡿	TCHjek
+斥	TCHjek
 璧	Pjek
 鐴	Pjek
 躄	Pjek
@@ -23493,7 +23493,7 @@ impurt_tables:
 㱸	Bjek
 𩪧	Bjek
 辟	Bjek
-𠪮	Tjek
+𠪮	TCjek
 聘	PHjeq
 娉	PHjeq
 俜	PHjeq
@@ -23514,7 +23514,7 @@ impurt_tables:
 㵾	DSjeq
 靚	DSjeq
 倩	TSHjeq
-鯖	Tjec
+鯖	TCjec
 菁	TSjec
 鶄	TSjec
 蜻	TSjec
@@ -23550,20 +23550,20 @@ impurt_tables:
 省	Sjeg
 睲	Sjeg
 惺	Sjeg
-石	Djek
-拓	Tjek
-跖	Tjek
-䞠	Tjek
-碩	Djek
-祏	Djek
-鉐	Djek
-䄷	Djek
-鼫	Djek
-䲽	Djek
-墌	Tjek
-摭	Tjek
-蹠	Tjek
-䗪	Tjek
+石	DCjek
+拓	TCjek
+跖	TCjek
+䞠	TCjek
+碩	DCjek
+祏	DCjek
+鉐	DCjek
+䄷	DCjek
+鼫	DCjek
+䲽	DCjek
+墌	TCjek
+摭	TCjek
+蹠	TCjek
+䗪	TCjek
 席	SZjek
 蓆	SZjek
 氏	TSjec
@@ -23599,11 +23599,11 @@ impurt_tables:
 蕮	Sjek
 舄	Sjek
 潟	Sjek
-滷	THjek	#?
-潟	THjek
+滷	TCHjek	#?
+潟	TCHjek
 襫	SCjek
 奭	SCjek
-䘸	Tjek
+䘸	TCjek
 腋	Jjek
 掖	Jjek
 䘸	Jjek
@@ -23665,27 +23665,27 @@ impurt_tables:
 竫	DSjeg
 淨	DSjeq
 𩓞	DSjeq
-正	Tjec
-征	Tjec
-𨒌	Tjec
-𦙫	Tjec
-𨢹	Tjec	#𦙫
-𨢏	Tjec
-𩜎	Tjec	#𦙫
-鉦	Tjec
-怔	Tjec
-鴊	Tjec
-䋊	Tjec
-眐	Tjec
-𧘿	Tjec
-佂	Tjec
-証	Tjeq
-鴊	Tjeq
-整	Tjeg
-正	Tjeq
-政	Tjeq
-隻	Tjek
-炙	Tjek
+正	TCjec
+征	TCjec
+𨒌	TCjec
+𦙫	TCjec
+𨢹	TCjec	#𦙫
+𨢏	TCjec
+𩜎	TCjec	#𦙫
+鉦	TCjec
+怔	TCjec
+鴊	TCjec
+䋊	TCjec
+眐	TCjec
+𧘿	TCjec
+佂	TCjec
+証	TCjeq
+鴊	TCjeq
+整	TCjeg
+正	TCjeq
+政	TCjeq
+隻	TCjek
+炙	TCjek
 苘	KHyeg
 詗	HSyeq
 瞁	HSyek
@@ -23729,7 +23729,7 @@ impurt_tables:
 𤙡	Syec
 垶	Syec
 觪	Syec
-𦳮	Tyek	#𦳮卷
+𦳮	TCyek	#𦳮卷
 𢶇	Gyec
 𦽓	Gyec
 㒌	Gyec
