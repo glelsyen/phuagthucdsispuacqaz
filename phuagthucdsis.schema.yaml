@@ -41,24 +41,31 @@ engine:
     - ascii_segmentor
     - matcher
     - abc_segmentor
-    - affix_segmentor@unicode
     - affix_segmentor@pinyin
     - affix_segmentor@zyenpheng
+    - affix_segmentor@unicode
+    # - affix_segmentor@reverse_lookup
+    # - affix_segmentor@pinyin_reverse_lookup
+    # - affix_segmentor@zyenpheng_reverse_lookup
     - punct_segmentor
     - fallback_segmentor
   translators:
     - echo_translator
     - punct_translator
     - script_translator
+    # - reverse_lookup_translator
     - script_translator@pinyin
     - script_translator@zyenpheng
     - table_translator@unicode
+    # - script_translator@pinyin_lookup
+    # - script_translator@zyenpheng_lookup
     - encode_commit_history
   filters:
     - simplifier
     - uniquifier
     - cjk_minifier
     - reverse_lookup_filter@gepxuuz
+    # - reverse_lookup_filter@zyenpheng_reverse_lookup
 
 speller:
   alphabet: 'zyxwvutsrqponmlkjihgfedcbaABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789;'
@@ -72,7 +79,7 @@ speller:
     - derive/((^|')([SZ][SC]))(?!$)/\L$1\L/
     # - derive/((^|')([H][QZS])(?!$))/\L$1\L/
     - derive/(^|')NG(?!$)/ng/
-    - derive/(^|')Q/k/
+    - derive/(^|')Q(?!$)/k/
     - derive/(^|')HQ(?!$)/q/
     - derive/(^|')HZ(?!$)/g/
     - derive/(^|')HS(?!$)/h/
@@ -80,6 +87,7 @@ speller:
     - derive/(^|')T[SZ](?!$)/c/
     - derive/(^|')D[SZ](?!$)/z/
     - derive/(^|')SS(?!$)/s/  
+    # - derive/(^|')XZ(?!$)/x/  #云邪
     - derive/(^|')(SZ|ZS|XZ)(?!$)/x/
     - derive/(^|')NG(?!$)/w/
     - derive/(^|')[KQ]H(?!$)/y/
@@ -104,6 +112,7 @@ speller:
     # - derive/^S[SC](?!$)/RS/
     # - derive/^Z[SC](?!$)/RZ/
     - derive/^([A-Z]+)([\w])+$/$1/
+    # - abbrev/^([a-z])([a-gi-z])+$/$1/
 
     - derive/([A-Z])y(\w)/$1vj$2/#介音
     - derive/([A-Z])l(\w)/$1vr$2/
@@ -127,6 +136,8 @@ speller:
     - derive/(\w)y([ou][^xhs])/$1j$2/
     - derive/(\w)w([ou][^xhs])/$1x$2/
 
+    - derive/(\w)v(.+(?=[vmbfp]))/$1/ #-V -M
+
     - derive/(\w)e([aeiouə])/$1$2/ #一四等
     - erase/(\weo[xhs])/$1/ #一四等
     # - derive/(\w)v([o])/$1$2/ #一四等 o
@@ -143,15 +154,16 @@ speller:
     - derive/(\w)vh$/$1w/
     - derive/(\w)vs$/$1y/
     - derive/(\w[rs])[jptk]$/$1/
+    - derive/(\w)[rs][jptk]$/$1r/
 
     # - derive/([jxaeiouə])\1(\w)/$1$2/ jx #省
     - derive/Jj/j/
-    - derive/(XZ)w/x/
+    - derive/(XZ)u/x/
     # - derive/(^|')(x)w(\w)/$1$2/ 
     - abbrev/(\w)ə/$1/  #省ə
     - abbrev/^([a-z]).+$/$1/ #首字母
-    - abbrev/(\w)[jx](\w)/$1i$2/ #i=jxi
-    - abbrev/(\w)[yw](\w)/$1u$2/ #i=jxi
+    - abbrev/(\w)[ijx](\w)/$1i$2/ #i=jxi
+    - abbrev/(\w)[uyw](\w)/$1u$2/ #i=jxi
     - abbrev/(\w)[aəo]([ndztmbfp])/$1e$2/ #aə→e
 
 ###########
@@ -211,8 +223,6 @@ speller:
     # - derive/(\w)[jx][ioə](v[xhs])/$1i$2/  #IƏV ??
     # - derive/(\wviə)(v[xhs])/$1i$2/  #合口㞢
   
-# abc_segmentor:
-  # extra_tags: [pinyin,zyenpheng,unicode]
 
 translator:
   dictionary: phuagthucdsis
@@ -220,7 +230,7 @@ translator:
   prism: phuagthucdsis
   preedit_format:
     # - xform/(^|[' ])eo/$1ə/
-    - xform/(\w);(\w)/$1ə$2/
+    - xform/;/ə/
     # - xform/(^|[' ])([ptk])h(\w)/$1$2ʰ$3/
     # - xform/(^|[' ])ng(\w)/$1ŋ$2/
     # - xform/([aeiouə])h($|[' ])/$1ʔ$2/
@@ -341,3 +351,4 @@ recognizer:
     punct: "/[a-z]*$" #配合symbols.yaml中的特殊字符輸入
     unicode: "u[0-9abcde]*;?$"
     zyenpheng: "a[a-z]*;?$"
+    # zyenpheng_lookup: "`z[a-z]*;?$"
