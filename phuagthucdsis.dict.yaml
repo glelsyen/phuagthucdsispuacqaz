@@ -10,7 +10,6 @@ impurt_tables:
 ...
 
 
-#
 # A   魚   歌1   宵1   談1   元1   陽
 # E   支   歌2   宵2   談2   元2   耕
 # O   侯   歌3   宵3   談3   元3   東
@@ -9428,6 +9427,12 @@ impurt_tables:
 暤	HZeuvh
 䜂	HZeuvs
 𡟷	HZeuvs
+皞	HZeuvh
+暠	HZeuvh
+皓	HZeuvh
+䯫	HZeuvh
+顥	HZeuvh
+灝	HZeuvh
 夰	Qeuvh
 夰	HZeuvh
 昦	HZeuvh
@@ -9435,19 +9440,9 @@ impurt_tables:
 𨛴	HZeuvh
 好	HSeuvh
 好	HSeuvs
-顥	HZeuvh
-灝	HZeuvh
 烄	Qeuvs
 訄	QHeuvx
 尻	QHeuvx
-咎	Qeuvx
-櫜	Qeuvx
-鼛	Qeuvx
-𣓌	Qeuvx
-倃	Qeuvx
-䓘	Qeuvx
-𣓌	Qeuvh
-𥢑	HZeuvh
 丂	QHeuvh
 攷	QHeuvh
 考	QHeuvh
@@ -9564,6 +9559,15 @@ impurt_tables:
 𧳦	Neuvh
 㛴	Neuvh
 腦	Neuvs
+##ƏV
+咎	Qeəvx
+櫜	Qeəvx
+鼛	Qeəvx
+𣓌	Qeəvx
+倃	Qeəvx
+䓘	Qeəvx
+𣓌	Qeəvh
+𥢑	HZeəvh
 ###AVR
 ##AVR
 曝	Beavsk	#ks
@@ -9604,17 +9608,18 @@ impurt_tables:
 艁	DSeuvh
 造	DSeuvh
 竈	TSeuvsk	#ks
-冃	Meuvsk	#ks
-𠔼	Meuvh	0%
-𤣽	Meuvsk
-媢	Meuvh
-冒	Meuvsk
-帽	Meuvsk
-瑁	Meuvsk
-𥈆	Meuvsk
-媢	Meuvsk
-𢯾	Meuvsk
-𣔺	Meuvsk
+##ƏVR
+冃	Meəvsk	#ks
+𠔼	Meəvh	0%
+𤣽	Meəvsk
+媢	Meəvh
+冒	Meəvsk
+帽	Meəvsk
+瑁	Meəvsk
+𥈆	Meəvsk
+媢	Meəvsk
+𢯾	Meəvsk
+𣔺	Meəvsk
 
 ###RAV
 ##RAV
