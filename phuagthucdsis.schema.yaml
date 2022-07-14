@@ -61,125 +61,179 @@ engine:
     - reverse_lookup_filter@gepxuuz
 
 speller:
-  alphabet: 'zyxwvutsrqponmlkjihgfedcbaABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789;'
+  alphabet: 'zyxwvutsrqponmlkjihgfedcbaABCDEFGHIJKLMNOPQRSTUVWXYZ;'
   delimiter: "'"
   algebra:
-    - derive/(^|')F//
-    - derive/((^|')([PBMTDNLKGSJX])(?!$))/\L$1\L/
-    - derive/((^|')(([PTK]|TS|RT)H)(?!$))/\L$1\L/
-    - derive/(^|')T[SZ](?!$)/ts/
-    - derive/(^|')D[SZ](?!$)/dz/
-    # - derive/((^|')([TD][SZCR])(?!$))/\L$1\L/
-    - derive/((^|')([SZ][SC]))(?!$)/\L$1\L/
-    # - derive/((^|')([H][QZS])(?!$))/\L$1\L/
-    - derive/(^|')T[SZ]H(?!$)/v/
-    - derive/(^|')T[SZ](?!$)/c/
-    - derive/(^|')D[SZ](?!$)/z/
-    - derive/(^|')SS(?!$)/s/  
-    - derive/(^|')(SZ|ZS)(?!$)/j/
-    - derive/(^|')NG(?!$)/ng/
-    - derive/(^|')Q(?!$)/k/
-    - derive/(^|')HQ(?!$)/q/
-    - derive/(^|')HZ(?!$)/g/
-    - derive/(^|')HS(?!$)/h/
-    - derive/(^|')NG(?!$)/w/
-    - derive/(^|')[KQ]H(?!$)/y/
-    - derive/(^|')PH(?!$)/f/
-    - derive/(^|')T[RC]?H(?!$)/r/
-    - derive/(^|')T[RC](?!$)/t/
-    - derive/(^|')D[RC](?!$)/d/
-    - derive/(^|')N[RC](?!$)/n/
+
+
+
+
+    - abbrev/([A-Z])[jxi](\w)/$1i$2/ #i=jxi
+    - abbrev/([A-Z])[ywu](\w)/$1u$2/ #i=jxi
+    - abbrev/(ə)([xhs])$/$1j$2/
+    - abbrev/([A-Z][ev]?)[au]([jlr])/$1a$2/ #AJ
+    - abbrev/([A-Z][e]?)[aou](v[xhs])/$1a$2/ #AV
+    - abbrev/([A-Z][er]?)[o](v[xhs])/$1u$2/ #U
+    - abbrev/([A-Z][r])[aeo](v[xhs])/$1a$2/ #RAV
+    - abbrev/([A-Z][e]?)[eə](v[xhs])/$1e$2/ #EV
+    - abbrev/([A-Z][jx])[aeu](v[xhs])/$1e$2/ #EV
+    - abbrev/([A-Z][jxi]?)[əo](v[xhs])/$1ə$2/ #ƏV
+    - abbrev/([A-Z][e]?)[ao]([vwy])/$1a$2/ #AV
+    - abbrev/([A-Z][er]?)[o]([vwy])/$1u$2/ #U
+    - abbrev/([A-Z][r])[aeo]([vwy])/$1a$2/ #RAV
+    - abbrev/([A-Z][e]?)[euə]([vwy])/$1e$2/ #EV
+    - abbrev/([A-Z][jx])[aeu]([vwy])/$1e$2/ #EV
+    - abbrev/([A-Z][jxi]?)[əo]([vwy])/$1ə$2/ #ƏV
+    - abbrev/[au]([ndzt])/a$1/ #AN
+    - abbrev/[aə]([ndzt])/e$1/ #
+    - abbrev/([A-Z][jyxw])[aeu]([ndzt])/$1e$2/  #IEN
+    - abbrev/([A-Z][jyxw])[ioə]([ndzt])/$1i$2/  #IIN
+    - abbrev/([A-Z][rf])[eiəo]([ndzt])/$1e$2/  #REN
+    - abbrev/([A-Z])[əou]([mbfp])/$1o$2/ #ƏM
+    - abbrev/([A-Z][jx])[aeu]([mbfp])/$1e$2/  #IEM
+    - abbrev/([A-Z][jx])[ioə]([mbfp])/$1i$2/  #IIM
+    - abbrev/([A-Z][r])[uo]([cgqk])/$12$3/  #RUŊ
+    - derive/([A-Z][jxi])[əoi]v([xhs])/$1u$2/ #尤幽 V U 
+    - derive/([A-Z])[ij][əo](v)/$1i$2/ #IU IƏV
+    - derive/([A-Z]u)[əo]([ndzt])/$1$2/ #IUN IƏN
+
+    - derive/([A-Z])v(iəv)/$1$2/ #VIƏ合口之 V U
+    - derive/([A-Z])(viə)v/$1$2/
+    - derive/([A-Z])[ji]ə(\w)/$1i$2/ #IƏ
+    - derive/([A-Z])[yu]ə(\w)/$1u$2/ #UƏ
+    - derive/([A-Z]v?)xə([cgqk])/$1ri$2/ #職IƏŊ IŊ -v
+    - derive/([A-Z]v?)[ij]ə([cgqk])/$1i$2/
+
+    - derive/([A-Z])y(\w)/$1vj$2/#介音
+    - derive/([A-Z])f(\w)/$1vr$2/
+    - derive/([A-Z])x(\w)/$1rj$2/
+    - derive/([A-Z])w(\w)/$1ry$2/
+
+    - derive/([PBM]|PH)v([aeiə])/$1$2/ #幫組
+    - derive/([PBM]|PH)u([aeiə])/$1i$2/ 
+    - derive/([PBM]|PH)y([aeiə])/$1j$2/ 
+    - derive/([PBM]|PH)w([aeiə])/$1x$2/ 
+
+
+    - xform/Jj/j/
+    - derive/JX[uw]([aeiouə])/x$1/
+    - derive/QZ[v]([aeiouə])/x$1/
+
+
+
+    - derive/([A-Z])([ev]?a)j/$1$2/ #AJ
+    - derive/([A-Z][ev]?a)j$/$1x/ #AJ
+    - derive/([A-Z][ev]?a)l$/$1h/ #AJ
+    - derive/([A-Z][ev]?a)r$/$1s/ #AJ
+    - derive/(\w)v([o][jlrndzt])/$1$2/ #ON VO
+    - derive/(\w)və([ndzt])/$1o$2/ #ON VO
+    - derive/([A-Z])e([aoə])/$1$2/ #一等
+    - derive/([A-Z])e([eu])/$1$2/ #四等
+    - derive/(ei)j/$1/ #EJ IJ E I
+    - derive/ov/eu/ #皋
+    - derive/ə(u)/$1/ #侯
+
+
+    - derive/([A-Z])r([aeiouə])/$1a$2/ #二等
+    - derive/([A-Z])f([aeiouə])/$1o$2/ #二等
+
+
     - erase/(^|')[hg][jy]/
     - erase/(^|')H[SZ][jy]/
-    - derive/(^|')HSj/$1hx/
-    - derive/(^|')HZj/$1gx/
-    - derive/(^|')HSy/$1hw/
-    - derive/(^|')HZy/$1gw/
     - derive/(^|')SC([jy])(?!$)/$1h$2/
     - derive/(^|')ZC([jy])(?!$)/$1g$2/
-    # - abbrev/(^|')SC(\w)(?!$)/$1h$2/
-    # - abbrev/(^|')ZC(\w)(?!$)/$1g$2/
-    # - derive/^T[ZC]H(?!$)/RTH/
-    # - derive/^D[ZC](?!$)/RT/
-    # - derive/^T[ZC]H(?!$)/RD/
-    # - derive/^S[SC](?!$)/RS/
-    # - derive/^Z[SC](?!$)/RZ/
-    - derive/^([A-Z]+)([\w])+$/$1/
-    # - abbrev/^([a-z])([a-gi-z])+$/$1/
-    - derive/(\w)x$/$1/ # 韻尾-聲調
-    - derive/(\w)jh$/$1l/
-    - derive/(\w)js$/$1r/
+
+    - derive/[FRQ]//
+    - derive/([KGTDJN])C/$1/
+    - derive/((^|')([PBMTDNLKGSJ])(?!$))/\L$1\L/
+    - derive/((^|')(([PTK]|T[SZ]|RT)H)(?!$))/\L$1\L/
+    - derive/(^|')T[SZ](?!$)/ts/
+    - derive/(^|')T[SZ]H(?!$)/tsh/
+    - derive/(^|')D[ZS](?!$)/dz/
+    - derive/(^|')D[ZS](?!$)/z/
+    - derive/(^|')(SZ|ZS)(?!$)/sz/
+    - derive/((^|')([SZ][SC]))(?!$)/\L$1\L/
+    - derive/(^|')SS(?!$)/s/  
+    - derive/(^|')[XH]Z(?!$)/g/
+    - derive/(^|')(JX|XQ)(?!$)/x/
+    - derive/(^|')NG(?!$)/ng/
+    - derive/(^|')([XH]S|SX)(?!$)/hs/
+    - derive/(^|')([XH]Z)(?!$)/hz/
+    - derive/(^|')HQ(?!$)/hq/
+    - derive/(^|')HQ(?!$)/A/
+
+    - derive/(^|')([S]Z)(?!$)/$1\L$2/
+
+    - derive/(^|')PH(?!$)/f/
+    - derive/(^|')T[RC]?H(?!$)/r/
+    - derive/(^|')T[SZ]H(?!$)/v/
+    - derive/(^|')T[SZ](?!$)/c/
+    - derive/(^|')T[SZ]H(?!$)/ch/
+    - derive/(^|')KQ?H(?!$)/y/
+    - derive/(^|')NGQ?(?!$)/w/
+    - derive/(^|')([XH]S|SX)(?!$)/h/
+    - derive/(^|')SZ(?!$)/x/#邪
+    - derive/(^|')HQ(?!$)/q/
+
+    - derive/(\w[rs])[ptk]$/$1/
+    - derive/([aeou])v([k])$/$1$2/
+    - derive/([aeiouə])x$/$1/
+    - derive/(\w)vx$/$1v/
     - derive/(\w)vh$/$1w/
     - derive/(\w)vs$/$1y/
-    - derive/(\w[rs])[jptk]$/$1/
-    - abbrev/(\w)j?[rs][jptk]$/$1r/
-    - abbrev/(\w)j?[rs][jptk]$/$1s/
+    - abbrev/(\w)[rs]([ptk])/$/$1r/ # 韻尾-聲調
+    - abbrev/(\w)(r([ptk])?)$/$1s/
+    - abbrev/(ə)x$/$1j/
+    - abbrev/(ə)h$/$1l/
+    - abbrev/(ə)s$/$1r/
+    - abbrev/(\w)j/$1/
+    - abbrev/(\w)l$/$1h/
+    - abbrev/(\w)r$/$1s/
+
+
+###########
+
+# 鈍音 ([PTK]H?|[BDG]|H[SZQ]|[MX]|NG|X)
+# 銳音 ([TDSNZ][C]|[TDN][R]|[TDSNL]|SZ|[TD][SZ]|[SZ]S)
 
 
   
-    - derive/(\w)([ev]a)j/$1$2/ #AJ
 
-    - derive/([A-Z])y(\w)/$1vj$2/#介音
-    - derive/([A-Z])l(\w)/$1vr$2/
-    - derive/([A-Z])x(\w)/$1rj$2/
-    - derive/([A-Z])w(\w)/$1vx$2/
 
-    - derive/([pfbm])v/$1/ #幫組
-    - derive/([pfbm])u([aeiouə])/$1i$2/ 
-    - derive/([pfbm])y/$1j/ 
-    - derive/([pfbm])w/$1x/ 
 
-    - derive/(\w)v(əu[xhs])/$1$2/ #O U
-    - derive/(\w)l([u][xhs])/$1r$2/
-    - derive/(\w)u([u][xhs])/$1i$2/
-    - derive/(\w)y([u][xhs])/$1j$2/
-    - derive/(\w)w([u][xhs])/$1x$2/
 
-    - derive/(\w)v([ou][^xhs])/$1$2/ #O U
-    - derive/(\w)l([ou][^xhs])/$1r$2/
-    - derive/(\w)u([ou][^xhs])/$1i$2/
-    - derive/(\w)y([ou][^xhs])/$1j$2/
-    - derive/(\w)w([ou][^xhs])/$1x$2/
 
-    - derive/(\w)v(iəv)/$1$2/ #合口之
-    - derive/(\w)(viə)v/$1$2/ #合口之
 
-    - derive/(\w)e([aeiouə])/$1$2/ #一四等
-    - erase/(\weo[xhs])/$1/ #一四等
-    # - derive/(\w)v([o])/$1$2/ #一四等 o
-    - derive/(\w)r([aeiouə])/$1a$2/ #二等
-    - derive/(\w)l([aeiouə])/$1o$2/ #二等
+
+  
+
+
+  
+
+    - abbrev/^([a-z]).+$/$1/ #首字母
 
     - derive/ə/eo/ #EOə eo
     - derive/ə/;/ #EOə eo
 
 
-
-    # - derive/([jxaeiouə])\1(\w)/$1$2/ jx #省
-    - derive/Jj/j/
-    - derive/(X)[uw]/x/
-    # - derive/(^|')(x)w(\w)/$1$2/ 
-    - abbrev/(\w)ə/$1/  #省ə
-    - abbrev/^([a-z]).+$/$1/ #首字母
-    - abbrev/(\w)[ijx](\w)/$1i$2/ #i=jxi
-    - abbrev/(\w)[uyw](\w)/$1u$2/ #i=jxi
-    - abbrev/(\w)[aəo]([ndztmbfp])/$1e$2/ #aə→e
 translator:
   dictionary: phuagthucdsis
   spelling_hints: 8
   prism: phuagthucdsis
   preedit_format:
-    # - xform/(^|[' ])eo/$1ə/
     - xform/;/ə/
-    # - xform/(^|[' ])([ptk])h(\w)/$1$2ʰ$3/
-    # - xform/(^|[' ])ng(\w)/$1ŋ$2/
-    # - xform/([aeiouə])h($|[' ])/$1ʔ$2/
-#     # - xform/(^|[' ])r/$1tʰ/
-#     # - xform/(^|[' ])f/$1pʰ/
-#     # - xform/(^|[' ])y/$1kʰ/
-#     # - xform/(^|[' ])v/$1cʰ/
-#     # - xform/(^|[' ])w/$1ŋ/
-
+    - xform/([PTKQ])H/\L$1ʰ/
+    - xform/SQ/χ/
+    - xform/ZQ/ʁ/
+    - xform/NG/ŋ/
+    - xform/NQ/ɴ/
+    - xform/A/ʔ/
+    - xform/O/ˤ/
+    - xform/V/ʷ/
+    - xform/Y/ɥ/
+    - xform/HQ/ʔ/
+    - xform/eo/ə/
+# # # # # 
 gepxuuz:
   dictionary: phuagthucdsis
   overwrite_comment: false
@@ -223,14 +277,14 @@ punctuator:
     "#": ["#", "＃", "⌘"]
     "$": ["$", "￥", "€", "£", "¥", "¢", "¤"]
     "%": ["%", "％", "°", "℃"]
-    "^": ["^", "……", "↑"]
+    "^": ["^", , "⊕", "……", "↑"]
     "&": ["&", "∩","∧", "＆"]
     "*": ["*", "×", "∙", "∏", "∐", "∘", "・", "⊙", "※", "❂", "＊"]
     "(": ["(", "（"]
     ")": [")", "）"]
     "-": ["-", "−", "∖", "－"]
-    "_": ["_", "——"]
-    "=": ["=", "＝"]
+    "_": ["_", "∖", "——"]
+    "=": ["=", "＝","≜",  "≝", "≔", "≔", "≟", "≠", "≡", "≢", "≣"]
     "+": ["+", "∫", "∑", "⨋", "＋"]
     "[": ["[", "「", "【", "〔", "［" ]
     "]": ["]", "」", "】", "〕", "］"]
@@ -240,45 +294,39 @@ punctuator:
     ";": [";", "；"]
 
     "|": ["|", "∪"," ∨", "¦", "§", "｜"]
-    "\\": ["\\", "、", "＼"]
+    "\\": ["\\", "、", "＼", "　", "∖"]
     "\'": ["\'", "‘", "’"] # ' 
-    "\"": ["\"", "“”"] # '"
+    "\"": ["\"", "“", "”"] # '"
     "<": ["<", "《", "〈", "«", "‹", "←", "∈", "⊆", "⊊", "⊈"]
     ">": [">", "》", "〉", "»", "›", "→", "∋", "⊇", "⊋", "⊉"]
     ",": ["," ,  "，"]
-    ".": ["." ,  "。"]
+    ".": ["." , "。" ,  "．"]
     "?": ["?" ,"∞" , "？"]
-    "/": ["/", "∕"  , "\\",  "、", "÷", "／"]
-    
-  full_shape:
-    "(": ["(", "（"]
-    ")": [")", "）"]
-    "<": ["《", "〈", "«", "‹", "←"]
-    ">": ["》", "〉", "»", "›", "→"]
+    "/": ["/", "、",  "∕", "÷", "∂", "／"]
+  symbols:
+    "/sxuh": ["∞",  "ℵ", "ℶ", "ℷ", "ℸ",  "∛",  "∜" ]
+    "/dzjop": ["∅",  "⊕",  "∖",  "∩", "∪", "∈", "∉",  "∊",  "∋",  "∌", "∍",  "⊆",  "⊇",  "⊈",  "⊉",  "⊊",  "⊋",  "⊂",  "⊃",  "⊄",  "⊄"]
+    "/tsjek": ["∫",  "∬",  "∭",  "∮",  "∯",  "∰",  "∱",  "∲",  "∳"]
+    "/muj": ["∕", "÷", "∂",  "∫",  "∬",  "∭",  "∮",  "∯",  "∰",  "∱",  "∲",  "∳",  "+",  "−",  "×",  "÷", "∏", "∑"]
+    "/muj": ["∂",  "𝜕",  "𝛛"]
+    "/svud": ["+",  "−",  "×",  "÷",  "∕",  "√",  "↑", "∏", "∑"]
+    "/logic": [ "∀", "∃",  "∄", "¬",   "∧", " ∨", "⊕"]
+
+    "/deow": ["˥",  "˦",  "˧",  "˨",  "˩",  "|",  "‖",  "↗",  "↘",  "ꜛ",  "ꜜ"]
+    "/scjec": ["ː",  "ˑ",  "̆",  "ˈ",  "ˌ",  ".",  "‿"]
+
+
+
+
+
+
+
+
+
+  # full_shape:
 key_binder:
   import_preset: default
   bindings:
-    - {accept: 0, send: KP_0, when: has_menu}
-    - {accept: 1, send: KP_1, when: has_menu}
-    - {accept: 2, send: KP_2, when: has_menu}
-    - {accept: 3, send: KP_3, when: has_menu}
-    - {accept: 4, send: KP_4, when: has_menu}
-    - {accept: 5, send: KP_5, when: has_menu}
-    - {accept: 6, send: KP_6, when: has_menu}
-    - {accept: 7, send: KP_7, when: has_menu}
-    - {accept: 8, send: KP_8, when: has_menu}
-    - {accept: 9, send: KP_9, when: has_menu}
-    - {accept: KP_0, send: 0, when: always}
-    - {accept: KP_1, send: 1, when: always}
-    - {accept: KP_2, send: 2, when: always}
-    - {accept: KP_3, send: 3, when: always}
-    - {accept: KP_4, send: 4, when: always}
-    - {accept: KP_5, send: 5, when: always}
-    - {accept: KP_6, send: 6, when: always}
-    - {accept: KP_7, send: 7, when: always}
-    - {accept: KP_8, send: 8, when: always}
-    - {accept: KP_9, send: 9, when: always}
-
 ascii_composer:
     good_old_caps_lock: true
     switch_key: {Caps_Lock: noop, Control_L: noop, Control_R: noop, Eisu_toggle: clear, Shift_L: commit_code, Shift_R: commit_code}
@@ -288,6 +336,6 @@ recognizer:
   patterns:
     pinyin: "^i[a-z]*'?$"
     email: "^[a-z][-_.0-9a-z]*@.*$"
-    punct: "/[a-z]*$" #配合symbols.yaml中的特殊字符輸入
+    punct: "/[a-zA-Z]*$" #配合symbols.yaml中的特殊字符輸入
     unicode: "^u[0-9abcde]*;?$"
     zyenpheng: "^a[a-z]*;?$"
