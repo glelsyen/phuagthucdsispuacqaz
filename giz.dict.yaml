@@ -85,30 +85,46 @@ r	R
 ɹ	R
 ɻ	R
 ʷɻ	F
-# y	y
+# # y	y
+# a	ea
+a	a
+ɶ	a
+ᴀ	a
 ɑ	a
-e	e
+ɒ	a
+æ	ae
+ɐ	a
+ɛ	e
+œ	o
+ɜ	e
+ɞ	o
+ʌ	e
+ɔ	o
 ᴇ	e
-ɤ	e
 ə	eo
-Ə	EO
+Ə	eo
+e	e
+ø	o
+ɘ	e
+ɵ	o
+ɤ	e
 o	o
-ʌ	o
 ɪ	ei
-ʏ	oi
-ω	eu
-ʊ	ou
-ɨ	i
-ʉ	u
-i	i
-ɯ	u
+ʏ	eu
+ᵻ	ei
+ᵿ	eu
+ω	ei
+ʊ	eu
+i	ei
+y	ei
+ɨ	ei
+ʉ	eu
+ɯ	ei
+u	eu
 ɨɐ	ia
 ʉɐ	ua
-ɨɛ	ie
-ʉɛ	ue
-æ	ae
-ɔ	au
-a	ea
+# ɨɛ	ie
+# ʉɛ	ue
 ʰ	H
 ʷ	V
 ʲ	J
@@ -230,7 +246,7 @@ a	ea
 ✓	Kəux	80%
 乄	20036	#0x4e44
 　	KHeuc	80%
-𠄷	DSeijx	0%	#20137齊
+𠄷	DSeij	0%	#20137齊
 𠆭	HQxim	#201ad
 𠇇	U	0%	#20137傳
 𠍋	U	0%	#2034b𠎦
