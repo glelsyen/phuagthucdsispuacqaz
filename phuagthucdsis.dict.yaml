@@ -15230,10 +15230,56 @@ import_tables:
 䍺	HZfun
 䍺	HZfuz
 槵	HZfuz
+𢠶	HZfuz	#患
+奻	NRfun
+𡠛	NRfun	#奻
+奻	NRfuz
 𩅦	HQfun	#人名
 㱚	NGQfut
 睅	HZfud	#?ɢʷ
 㡲	HZfun
+
+鍰	XQfun
+𤸷	NGQfun
+刷	SSfut
+涮	SSfuz
+妠	NRfut
+跧	TZfun
+矔	KQfuz
+宦	HZfuz
+𠴨	KQfun
+倌	KQfuz
+綰	HQfud
+綰	HQfuz
+𩈬	HQfuz
+慣	KQfuz
+摜	KQfuz
+薍	NGQfuz
+丱	KQfuz
+𢇅	KQfun
+𢇇	KQfun
+關	KQfun
+𨶚	KQfun
+関	KQfun	0%
+㝈	SSfuz
+彎	HQfun
+灣	HQfun
+䘎	HQfun
+㔍	TZHfut
+篡	TZHfuz
+䵵	TZHfut
+撰	DSfud
+饌	DSfud
+鵽	TRfut
+錣	TRfut
+窡	TRfut
+豢	HZfuz
+睆	HZfud
+鯇	HZfud
+䴷	HZfud
+皖	HZfud
+莞	HZfud
+頑	NGQfun
 ##RVAN RVON A?O?
 𠜜	KQfat
 𪁝	KQfat
@@ -15255,58 +15301,14 @@ import_tables:
 𤁪	HZfat
 䫄	TRHfat	#䫄頢
 𤁫	TRHfat
-𠴨	KQfan
-倌	KQfaz
-綰	HQfad
-綰	HQfaz
-𩈬	HQfaz
-慣	KQfaz
-摜	KQfaz
-矔	KQfaz
-宦	HZfaz
-𡍦	HZfan
-奻	NRfan
-𡠛	NRfan	#奻
-奻	NRfaz
-跧	TZfan
-妠	NRfat
-涮	SSfaz
-刷	SSfat
-𤸷	NGQfan
-𢠶	HZfaz	#?
-薍	NGQfaz
-丱	KQfaz
-𢇅	KQfan
-𢇇	KQfan
-關	KQfan
-𨶚	KQfan
-関	KQfan	0%
-㝈	SSfaz
-彎	HQfan
-灣	HQfan
-䘎	HQfan
-㔍	TZHfat
-篡	TZHfaz
-䵵	TZHfat
-撰	DSfad
-饌	DSfad
-𤸷	NGQfan
-劀	KQfat
-睆	HZfad
-鯇	HZfad
-䴷	HZfad
-皖	HZfad
-莞	HZfad
-頑	NGQfan
-鍰	XQfan
+劀	KQfat	#刮
 刖	NGQfat
 䎳	NGQfat
 䚴	NGQfat
-郇	HZfan
-鵽	TRfat
-錣	TRfat
-窡	TRfat
-豢	HZfaz
+##VRUN
+𡍦	HZfon	#u
+##VREN
+郇	HZfen
 ###IAN
 ##IAN
 潫	HQfan
@@ -15778,7 +15780,7 @@ import_tables:
 㔡	Peit
 𢱧	Beit
 䫾	PHeit
-咇	Beit	#-ŋ
+咇	Beit	#-ŋ-k
 苾	Beit
 馝	Beit
 䏟	Beit
@@ -17095,11 +17097,6 @@ import_tables:
 蓮	Ljed
 𤹨	Ljez
 摙	Ljez
-𤣆	Ljen
-𪚀	Ljen
-㶌	Ljen
-聮	Ljen
-𤑿	Ljed
 列	Ljet
 𡿪	Ljet
 𠛱	Ljet
@@ -17300,6 +17297,14 @@ import_tables:
 䀸	TCjet
 掣	TCHjet
 𠟉	TCjed
+###JON
+聮	Ljun
+𤣆	Ljun
+𪚀	Ljun
+𤑿	Ljud
+聯	Ljun
+㶌	Ljun
+聨	Ljun
 ###VJEN YEN 
 #VJON YON元3
 梲	TCyut
@@ -18067,7 +18072,7 @@ import_tables:
 綼	Bjit
 觱	Pjit
 牝	Bjid
-玭	Bjin
+玭	Bjin	#-ŋ
 比	Bjit	#-k
 吡	Bjit
 坒	Bjit
@@ -18091,6 +18096,13 @@ import_tables:
 𣢠	Bjit
 咇	Bjit
 妼	Bjit
+宓	Mjit	#-k
+淧	Mjit
+𥁑	Mjit
+謐	Mjit
+䤉	Mjit
+榓	Mjit
+蜜	Mjit
 𠦒	Pjit
 畢	Pjit
 篳	Pjit
@@ -18161,13 +18173,6 @@ import_tables:
 𡤉	Bjin
 頻	Bjin
 𧖅	Mjit	#-k?鼏mek
-宓	Mjit	#-k
-淧	Mjit
-𥁑	Mjit
-謐	Mjit
-䤉	Mjit
-榓	Mjit
-蜜	Mjit
 𥋱	Mjit
 民	Mjin	#-ŋ?
 泯	Mjin
@@ -18330,12 +18335,12 @@ import_tables:
 柒	TSHjit
 叱	TCHjit
 七	TSHjit
-漆	TSHjit	#-g
+桼	TSHjit	#-g
+漆	TSHjit
 䣛	TSHjit
 𪄭	TSHjit
 𦸓	TSHjit
 㯃	TSHjit
-桼	TSHjit
 𣛺	TSHjit
 厀	Sjit
 膝	Sjit
@@ -18372,14 +18377,14 @@ import_tables:
 𠲳	SCjin
 㑗	SCjin
 身	SCjin
-失	SCjit
+失	SCjit	#-ŋ
 佚	Jjit
 軼	Jjit
 泆	Jjit
 劮	Jjit
 䭿	Jjit
 䳀	Jjit
-實	ZCjit
+實	ZCjit	#-k
 壣	Ljin	#元3
 吝	Ljiz
 悋	Ljiz
@@ -18409,7 +18414,7 @@ import_tables:
 䪿	Sjiz
 顖	Sjiz
 𦞤	Sjiz
-信	Sjiz	#訊
+信	Sjiz	#訊-ŋ?
 㐰	Sjiz
 訫	Sjiz
 阠	SCjiz
@@ -18513,8 +18518,8 @@ import_tables:
 縝	TCHjin
 慎	DCjiz
 𦎷	TSjiz
-𩋡	SCjit
 室	SCjit	#-k
+𩋡	SCjit
 臸	NCjit
 晊	TCjit
 郅	TCjit
@@ -18533,16 +18538,16 @@ import_tables:
 礩	TCjit
 ###YIN
 ##VIIN
-戌	Syit	#SM
+戌	Syit	#SM -k?
 珬	Syit
 㖅	Syit
 𧊥	Syit
 銊	Syit
 灥	SZyin
-袕	ZCyit
+袕	ZCyit	#-k
 𦙮	Kyit
 鴪	Jyit
-卹	Syit
+卹	Syit	#-k
 恤	Syit
 賉	Syit
 欰	Syit
@@ -18942,14 +18947,14 @@ import_tables:
 𢓠	SSxən
 姺	SSxən
 兟	SSxən
-乙	HQxət	#-t -k
-亄	HQxət
-𦨇	NGxət
-乚	NGxət	#-t
-𠃉	NGxət
-鳦	HQxət
-耴	NGxət
 ##XIN 
+乙	HQxit	#-k
+亄	HQxit
+𦨇	NGxit
+乚	NGxit	#-t
+𠃉	NGxit
+鳦	HQxit
+耴	NGxit
 魿	Gxin	#-ŋ
 㔎	NGxit
 㻞	Pxin	#E
@@ -18971,7 +18976,7 @@ import_tables:
 鮚	Gxit
 趌	Gxit
 狤	Gxit
-珉	Mxin
+珉	Mxin	#-ŋ
 岷	Mxin
 罠	Mxin
 䪸	Mxin
@@ -18980,7 +18985,7 @@ import_tables:
 敃	Mxid
 愍	Mxid
 𥴲	Mxid
-𦌡	Mxid
+𦌡	Mxid	#-ŋ
 臻	TZxin
 蓁	TZxin
 搸	TZxin
@@ -18991,7 +18996,7 @@ import_tables:
 衵	NRxit
 䵒	NRxit
 胂	TRHxin
-㲳	TRxit
+㲳	TRxit	#-ŋ-k
 抶	TRHxit
 眣	TRHxit
 秩	DRxit
@@ -19037,20 +19042,6 @@ import_tables:
 紖	DRxid
 䏖	DRxid
 䀕	DRxid
-瀙	TZxin
-櫬	TZHxiz
-瀙	TZHxiz
-嚫	TZHxiz
-䞋	TZHxiz
-襯	TZHxiz
-儭	TZHxiz
-礥	JXxin
-㘋	JXxin
-敶	DRxin
-陳	DRxin
-敶	DRxiz
-陳	DRxiz
-陣	DRxiz
 𣘘	SSxin
 莘	SSxin
 甡	SSxin	#莘
@@ -19064,6 +19055,20 @@ import_tables:
 𩷔	SSxin
 䯂	SSxin	#?驫
 屾	SSxin
+瀙	TZxin	#-ŋ
+櫬	TZHxiz
+瀙	TZHxiz
+嚫	TZHxiz
+䞋	TZHxiz
+襯	TZHxiz
+儭	TZHxiz
+礥	JXxin
+㘋	JXxin
+敶	DRxin
+陳	DRxin
+敶	DRxiz
+陳	DRxiz
+陣	DRxiz
 鼘	HQxin
 鎮	TRxin
 填	TRxin
@@ -19071,7 +19076,7 @@ import_tables:
 瑱	TRxiz
 填	TRxiz
 縝	TRHxin
-挃	TRxit
+挃	TRxit	#-ŋ
 𨖹	TRxit
 庢	TRxit
 銍	TRxit
@@ -19092,8 +19097,6 @@ import_tables:
 ###WIN
 ##WƏN 
 贇	HQwən
-##WIN
-汮	Kwin
 ##WUN XUN
 𦃢	KHwod
 茁	TRwot
@@ -19173,8 +19176,9 @@ import_tables:
 汩	JXwot	#?Ə
 䫻	JXwot
 𡿯	JXwot	#曰聲
-##VIN
+##WIN VRJIN
 奫	HQwin
+汮	Kwin
 筠	JXwin
 荺	JXwin
 荺	JXwid
@@ -26722,4 +26726,293 @@ import_tables:
 跾	SCjəvk
 翛	SCjəvk
 𣢜	HQiəvk
-
+####IŊ
+###IŊ
+琕	Beic	#-ŋ
+咇	Beik	#-ŋ-k
+苾	Beik
+馝	Beik
+䏟	Beik
+飶	Beik
+柲	Beik
+覕	Meik
+鴓	Meik
+𥉓	Meik
+奠	Deiq	#-ŋ
+㞟	Deiq
+戜	Deik	#-ŋ
+鐵	THeik
+𢶋	THeik
+驖	THeik
+驖	Deik
+圼	Neik	#-ŋ
+捏	Neik
+𦯖	Neik
+㘿	Neik
+𥔄	Neik
+𤶚	Neik
+㖏	Neik
+𦛠	Neik
+陧	NGQeik
+涅	Neik
+篞	Neik
+蛈	THeik	#-ŋ
+眣	Deik
+昳	Deik
+胅	Deik
+迭	Deik
+跌	Deik
+軼	Deik
+䭿	Deik
+𨳺	Deik
+瓞	Deik
+苵	Deik
+镻	Deik
+䳀	Deik
+詄	Deik
+泆	Deik
+𥑇	Deik
+趃	Deik
+柣	TSHeik
+𠽧	Deik	#-ŋ
+蛭	Teik
+咥	Teik
+𨴗	Teik
+𡇓	Teik
+姪	Deik
+垤	Deik
+耋	Deik
+絰	Deik
+咥	Deik
+荎	Deik
+𪗻	Deik
+恎	Deik
+𪀒	Deik
+窒	Teik
+𥉺	Teik
+㗧	Teik
+𢲼	Deik
+𡼄	Deik
+###VIŊ
+穴	XQvik	#ɢ -k
+坹	XQvik
+䋉	XQvik
+袕	XQvik
+泬	SXvik
+䛎	SXvik
+坹	SXvik
+血	SXvik	#ɢ -k
+𥅧	SXvik
+䆝	SXvik
+䒸	SXvik
+###JIŊ
+玭	Bjic	#-ŋ
+比	Bjik	#-k
+吡	Bjik
+坒	Bjik
+必	Pjik	#-k
+覕	Pjiq
+珌	Pjik
+鮅	Pjik
+邲	Bjik
+柲	Bjik
+馝	Bjik
+苾	Bjik
+䩛	Bjik
+佖	Bjik
+駜	Bjik
+飶	Bjik
+鮅	Bjik
+怭	Bjik
+泌	Bjik
+𨠔	Bjik
+䖩	Bjik
+𣢠	Bjik
+咇	Bjik
+妼	Bjik
+宓	Mjik	#-k
+淧	Mjik
+𥁑	Mjik
+謐	Mjik
+䤉	Mjik
+榓	Mjik
+蜜	Mjik
+𥋱	Mjik
+𧖅	Mjik	#-k?鼏mek
+民	Mjic	#-ŋ?
+泯	Mjic
+怋	Mjic
+泯	Mjib
+𤿕	Mjib
+笢	Mjib
+䟨	Mjib
+刡	Mjib
+黽	Mjib	#-ŋ?
+僶	Mjib
+澠	Mjib
+臣	GCjic	#-ŋ
+茞	GCjic
+䢻	GCjic
+頣	SCjib
+緊	Kjib
+腎	GCjib
+𦜌	Kjib
+𤷌	Kjib
+𧼒	KHjib
+𤿳	KHjib
+臤	KHjiq
+菣	KHjiq
+𧼒	KHjiq
+𧼒	Gjic
+桼	TSHjik	#-g
+漆	TSHjik
+䣛	TSHjik
+𪄭	TSHjik
+𦸓	TSHjik
+㯃	TSHjik
+𣛺	TSHjik
+厀	Sjik
+膝	Sjik
+𧀬	Sjik
+人	NCjic	#-ŋ?
+朲	NCjic
+仁	NCjic
+儿	NCjic
+辛	Sjic	#-ŋ
+薪	Sjic
+新	Sjic
+親	TSHjic
+𡪔	TSHjic
+寴	TSHjic
+寴	TSHjiq
+儭	TSHjiq
+瀙	TSHjiq
+親	TSHjiq
+一	HQjik	#-k
+弌	HQjik
+壹	HQjik
+溢	Jjik	#-k
+鎰	Jjik
+齸	Jjik
+失	SCjik	#-ŋ
+佚	Jjik
+軼	Jjik
+泆	Jjik
+劮	Jjik
+䭿	Jjik
+䳀	Jjik
+室	SCjik	#-k
+𩋡	SCjik
+臸	NCjik
+晊	TCjik
+郅	TCjik
+桎	TCjik
+蛭	TCjik
+銍	TCjik
+侄	TCjik
+騭	TCjik	#-k
+實	ZCjik	#-k
+印	HQjiq	#-ŋ
+鮣	HQjiq
+###VJIŊ YIŊ
+袕	ZCyik	#-k
+𦙮	Kyik
+鴪	Jyik
+卹	Syik	#-k
+恤	Syik
+賉	Syik
+欰	Syik
+###RJIŊ
+乙	HQxik	#-k -k
+亄	HQxik
+𦨇	NGxik
+魿	Gxic	#-ŋ
+昵	NRxik	#-k
+㓼	TZHxik	#-k
+䜉	TZHxik
+楖	TZxik	#-k
+𥠈	TZxik
+櫛	TZxik
+瀄	TZxik
+㘉	TZxik
+擳	TZxik
+珉	Mxic	#-ŋ
+岷	Mxic
+罠	Mxic
+䪸	Mxic
+笢	Mxic
+鈱	Mxic
+敃	Mxib
+愍	Mxib
+𥴲	Mxib
+𦌡	Mxib	#-ŋ
+㲳	TRxik	#-ŋ-k
+抶	TRHxik
+眣	TRHxik
+秩	DRxik
+紩	DRxik
+帙	DRxik
+袠	DRxik
+柣	DRxik
+翐	DRxik
+妷	DRxik
+𣗻	DRxik
+豑	DRxik	#秩
+豒	DRxik
+𧰅	DRxik
+𢧤	DRxik	#秩
+䟈	DRxik
+鉍	Pxik	#-k?
+柲	Pxik
+泌	Pxik
+咇	Pxik
+駜	Bxik
+邲	Bxik
+佖	Bxik
+宓	Mxik
+𡶇	Mxik
+密	Mxik
+蔤	Mxik
+滵	Mxik
+樒	Mxik
+𪅮	Mxik
+𥉴	Mxik
+瑟	SSxik	#-k?
+飋	SSxik
+璱	SSxik
+𦆄	SSxik
+瀙	TZxic	#-ŋ
+櫬	TZHxiq
+瀙	TZHxiq
+嚫	TZHxiq
+䞋	TZHxiq
+襯	TZHxiq
+儭	TZHxiq
+𣘘	SSxic
+莘	SSxic
+甡	SSxic	#莘
+燊	SSxic
+𨐔	SSxic
+𦐹	SSxic
+㾕	SSxic
+㜪	SSxic
+𣓀	TZxic
+𩺵	SSxic
+𩷔	SSxic
+䯂	SSxic	#?驫
+屾	SSxic
+挃	TRxik	#-ŋ
+𨖹	TRxik
+庢	TRxik
+銍	TRxik
+秷	TRxik
+𦤻	TRxik
+𪗻	TRxik
+𥎹	TRxik
+蛭	TRxik
+窒	TRxik
+㗧	TRxik
+螲	TRxik
+咥	TRHxik
+跮	TRHxik
+姪	DRxik
